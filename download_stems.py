@@ -68,6 +68,11 @@ def download_all_files(links, save_path):
     for l in links[:]:
         filename = os.path.basename(l)
         filename, _ = os.path.splitext(filename)
+
+        # files often marked as _Full at the end, remove this
+        if filename.endswith("_Full"):
+            filename = filename[:-5]
+
         out_path = f"{save_path}{filename}"
 
         # avoid re-downloading ones already downloaded previously
@@ -90,7 +95,7 @@ def download_all_files(links, save_path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--path", type=str, default="./multitracks", 
+    parser.add_argument("--path", type=str, default="./multitracks/", 
         help="path where downloaded mutlitracks will be saved")
     parser.add_argument("--genre", type=str, 
         help="only download a specific genere, pick one (case sensitive) 'Pop', 'Electronica', 'Acoustic', 'HipHop'")
