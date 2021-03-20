@@ -4,7 +4,6 @@
 
 import requests 
 import json
-# import re
 from bs4 import BeautifulSoup
 import os
 import zipfile
@@ -45,32 +44,26 @@ def unzip_async(zip_path, out_path):
     print(f"sucessfully unzipped {zip_path}, deleting zip")
     os.remove(zip_path)
 
-
 # downloads a single zip
 def download(url, save_path, chunk_size=128):
     # filesize = requests.head(url)
     r = requests.get(url, stream=True)
     filesize = int(r.headers['Content-Length'])
     pbar = tqdm(total=filesize)
-
     with open(save_path, 'wb') as fd:
         for chunk in r.iter_content(chunk_size=chunk_size):
             fd.write(chunk)
             pbar.update(chunk_size)
-
     pbar.close()
-
 
 # downloads and unzips files from links
 def download_all_files(links, save_path):
-
     # makes a temporary path for downloading the zip files
     if not os.path.exists("./temp"):
         os.mkdir("./temp")
-
     unzip_workers = [] # keep track of worker threads
     i = 0
-    
+
     for l in links[:]:
         filename = os.path.basename(l)
         filename, _ = os.path.splitext(filename)
@@ -81,21 +74,12 @@ def download_all_files(links, save_path):
             print(f'path {out_path} already exists, skipping...')
         else:
             os.mkdir(out_path)
-
             temp_file = f'./temp/temp_{filename}.zip'
-            
-            print(f'downloading {filename}, multitrack {i}/{len(links)}')
-            
-            # download(l, temp_file)
-
+            print(f'downloading {filename}, zip # {i}/{len(links)}')
+            download(l, temp_file)
             w = threading.Thread(target=unzip_async, args=(temp_file, out_path))
             unzip_workers.append(w)
             w.start()
-
-            # out_path = f"'{save_path}{folder_name}'"
-            # !unzip -q $temp_file -d $out_path
-
-            # !rm $temp_file
             i += 1
 
     for w in unzip_workers:
@@ -104,13 +88,8 @@ def download_all_files(links, save_path):
 
 
 if __name__ == "__main__":
-
     save_path = "./multitracks/"
-
     genres=['Pop', 'Electronica', 'Acoustic', 'HipHop']
-
     page = parse_page('https://www.cambridge-mt.com/ms/mtk/')
-
     links = get_dl_links(page, genres)
-
     download_all_files(links, save_path)
