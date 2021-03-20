@@ -35,8 +35,6 @@ def get_dl_links(page, genres):
                             print(f"found {link}")
                     except:
                         continue
-                else:
-                    continue
     return links
 
 # worker for unzipping files
