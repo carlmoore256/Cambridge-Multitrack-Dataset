@@ -101,6 +101,8 @@ if __name__ == "__main__":
         help="only download a specific genere, pick one (case sensitive) 'Pop', 'Electronica', 'Acoustic', 'HipHop'")
     parser.add_argument("--mt_url", type=str, default='https://www.cambridge-mt.com/ms/mtk/',
         help="url for the cambridge mt library")
+    parser.add_argument("--subset", type=int, default=0, 
+        help="take a small subset of all mutlitracks given number of examples")
     args = parser.parse_args()
 
     if args.genre is None:
@@ -110,4 +112,11 @@ if __name__ == "__main__":
 
     page = parse_page(args.mt_url)
     links = get_dl_links(page, genres)
+
+    # option to load in a randomly sampled subset
+    if args.subset > 0:
+        import random
+        random.shuffle(links)
+        links = links[:args.subset]
+
     download_all_files(links, args.path)
