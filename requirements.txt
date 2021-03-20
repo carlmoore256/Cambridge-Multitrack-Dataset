@@ -1,3 +1,5 @@
 beautifulsoup4
 librosa
 tqdm
+fuzzywuzzy
+python-Levenshtein
