@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 import os
 import zipfile
 from tqdm import tqdm
+import threading
 
 # return beautiful soup parsed html page
 def parse_page(url):
@@ -33,13 +34,18 @@ def get_dl_links(page, genres):
                             links.append(link)
                             print(f"found {link}")
                     except:
-                        print(f"full download not found, skipping")
+                        continue
                 else:
                     continue
     return links
 
 # worker for unzipping files
-# def unzip_async(zipfile):
+def unzip_async(zip_path, out_path):
+    print(f"unzipping {zip_path} to {out_path}")
+    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+        zip_ref.extractall(out_path)
+    print(f"sucessfully unzipped {zip_path}, deleting zip")
+    os.remove(zip_path)
 
 
 # downloads a single zip
@@ -63,28 +69,40 @@ def download_all_files(links, save_path):
     # makes a temporary path for downloading the zip files
     if not os.path.exists("./temp"):
         os.mkdir("./temp")
+
+    unzip_workers = [] # keep track of worker threads
+    i = 0
     
     for l in links[:]:
         filename = os.path.basename(l)
         filename, _ = os.path.splitext(filename)
-        print(filename)
+        out_path = f"{save_path}{filename}"
 
         # avoid re-downloading ones already downloaded previously
-        if os.path.exists(save_path + filename):
-            print(f'path {save_path + filename} already exists, skipping...')
+        if os.path.exists(out_path):
+            print(f'path {out_path} already exists, skipping...')
         else:
+            os.mkdir(out_path)
+
             temp_file = f'./temp/temp_{filename}.zip'
             
-            print(f'downloading {l}')
-            download(l, temp_file)
+            print(f'downloading {filename}, multitrack {i}/{len(links)}')
+            
+            # download(l, temp_file)
 
-            folder_name = filename
-            # print(f"extracting to {save_path}{folder_name}")
+            w = threading.Thread(target=unzip_async, args=(temp_file, out_path))
+            unzip_workers.append(w)
+            w.start()
 
             # out_path = f"'{save_path}{folder_name}'"
             # !unzip -q $temp_file -d $out_path
 
             # !rm $temp_file
+            i += 1
+
+    for w in unzip_workers:
+        print("waiting for worker threads to finish unzip")
+        w.join()
 
 
 if __name__ == "__main__":
