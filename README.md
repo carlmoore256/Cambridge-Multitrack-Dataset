@@ -18,10 +18,15 @@ pip install -r requirements.txt
 ```bash
 python download_stems.py
 ```
+#### This will take a long time, since we are retrieving several hundred GBs of WAV files
 
-- This process will take a long time, since we are retrieving several hundred GB of waveform audio files
-- Folder checks are implemented to avoid re-downloading parts of your local library
-- Individual genres can be specified
-#### genres = ['Pop', 'Electronica', 'Acoustic', 'HipHop']
+- (Optional) Download only a single genre using the --genre argument
+```bash
+python download_stems.py --genre Pop
+```
+#### Available genre filters: Pop, Electronica, Acoustic, HipHop
 
-Zip files are saved in a temp directory ("./temp") where they stay until they are unzipped. Unzipping is done asychronously alongside other downloads, so be careful when terminating this process early, as worker threads may still be actively unzipping.
+This may not seem like an exhaustive list, but this is actually just the html tags. Browse [the website](https://www.cambridge-mt.com/ms/mtk/) for a better idea about what's included in each of these.
+
+* Folder checks avoid re-downloading parts of your local library
+* Zip files are stored in "./temp" until they are unzipped
