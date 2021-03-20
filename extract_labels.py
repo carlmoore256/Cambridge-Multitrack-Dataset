@@ -58,8 +58,8 @@ def create_label_map(data_path, kw_filter, save_path="./"):
             # add location of wav stem to session kw
             dir_map[session_name][kw].append(root + '/' + f)
             matched_kw.append(kw)
-
-      print(f'found {matched_kw} in {session_name} ({len(matched_kw)} total files)')
+      if len(matched_kw > 0):
+        print(f'found {matched_kw} in {session_name} ({len(matched_kw)} total files)')
   return dir_map
 
 if __name__ == "__main__":
