@@ -14,12 +14,10 @@ class FilterStems():
 
   def filter(self, name):
     result = False
-    word, score = process.extractOne(name, self.keywords)
-    if score >= self.conf_thresh:
-      return [True, word]
-    else:
-      return [False, None]
-
+    words = process.extract(name, self.keywords)
+    words = [w[0] for w in words if w[1] >= self.conf_thresh]
+    return words
+    
 def load_keywords(path):
   keywords = []
   param_file = open(path, "r")
@@ -46,19 +44,24 @@ def create_label_map(data_path, kw_filter, save_path="./"):
         # filter out macos junk files
         if f[0] != '.' and f.endswith('.wav'):
           # check the filename against keyword filters
-          result, kw = kw_filter.filter(f)
+          kw = kw_filter.filter(f)
 
-          if result:
+          if len(kw) > 0:
             # add session to the map if it's not there yet
             if not session_name in dir_map.keys():
               dir_map[session_name] = { "path" : root }
-              # initialize with all keys
+              # initialize with all keys if they don't yet exist
               for p in kw_filter.keywords:
-                dir_map[session_name][p] = []
-            # add location of wav stem to session kw
-            dir_map[session_name][kw].append(root + '/' + f)
+                if not p in dir_map[session_name]:
+                  dir_map[session_name][p] = []
+
+            for k in kw:
+              # add location of wav stem to session kw
+              dir_map[session_name][k].append(root + '/' + f)
+              # TODO - add additional/secondary matched keywords. 
+              # Things like vox & backing vox are examples of issues with adding only the strongest match
             matched_kw.append(kw)
-      if len(matched_kw > 0):
+      if len(matched_kw) > 0:
         print(f'found {matched_kw} in {session_name} ({len(matched_kw)} total files)')
   return dir_map
 
