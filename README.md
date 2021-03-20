@@ -2,7 +2,6 @@
 Tools for downloading, sorting and analyzing the [Cambridge Multitracks library](https://www.cambridge-mt.com/ms/mtk/) for machine learning applications. [Example](https://github.com/carlmoore256/NextBlock)
 
 ## Installation
-- Clone this repo
 ```bash
 git clone https://github.com/carlmoore256/Cambridge-Multitrack-Dataset
 ```
