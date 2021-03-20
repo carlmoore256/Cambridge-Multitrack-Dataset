@@ -1,5 +1,6 @@
 multitracks/
 temp/
+notes.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
