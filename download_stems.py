@@ -9,6 +9,7 @@ import os
 import zipfile
 from tqdm import tqdm
 import threading
+import argparse
 
 # return beautiful soup parsed html page
 def parse_page(url):
@@ -88,8 +89,20 @@ def download_all_files(links, save_path):
 
 
 if __name__ == "__main__":
-    save_path = "./multitracks/"
-    genres=['Pop', 'Electronica', 'Acoustic', 'HipHop']
-    page = parse_page('https://www.cambridge-mt.com/ms/mtk/')
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--path", type=str, default="./multitracks", 
+        help="path where downloaded mutlitracks will be saved")
+    parser.add_argument("--genre", type=str, 
+        help="only download a specific genere, pick one (case sensitive) 'Pop', 'Electronica', 'Acoustic', 'HipHop'")
+    parser.add_argument("--mt_url", type=str, default='https://www.cambridge-mt.com/ms/mtk/',
+        help="url for the cambridge mt library")
+    args = parser.parse_args()
+
+    if args.genre is None:
+        genres = ['Pop', 'Electronica', 'Acoustic', 'HipHop']
+    else:
+        genres = [args.genre]
+
+    page = parse_page(args.mt_url)
     links = get_dl_links(page, genres)
-    download_all_files(links, save_path)
+    download_all_files(links, args.path)
