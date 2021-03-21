@@ -3,3 +3,4 @@ librosa
 tqdm
 fuzzywuzzy
 python-Levenshtein
+tensorflow_hub

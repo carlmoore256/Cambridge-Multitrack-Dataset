@@ -1,68 +1,11 @@
 # various methods for verifying that audio data matches its label
-
-import params as yamnet_params
-import yamnet as yamnet_model
+from yamnet_classifier import Yamnet
 import resampy
+import argparse
+import numpy as np
 import requests
 import utils
 import os
-
-# yamnet verification - classifier trained on audioset 
-class Yamnet():
-  def __init__(self, weights='yamnet.h5', class_names='yamnet_class_map.csv'):
-    self.download_weights()
-    self.params = yamnet_params.Params()
-    self.yamnet = yamnet_model.yamnet_frames_model(self.params)
-    self.yamnet.load_weights(weights)
-    self.yamnet_classes = yamnet_model.class_names('yamnet_class_map.csv')
-
-  def download_weights(self, path="./yamnet/model/yamnet.h5"):
-    if not os.path.exists("./yamnet/model/yamnet.h5"):
-      print(f"downloading yamnet weights to {path}")
-      utils.download("https://storage.googleapis.com/audioset/yamnet.h5", "./yamnet/model/yamnet.h5")
-    else:
-      print(f"using yamnet weights found at {path}")
-
-  def yamnet_inference(self, waveform, sr, expected_class):
-    waveform = waveform.astype('float32')
-
-    # Convert to mono and the sample rate expected by YAMNet.
-    if len(waveform.shape) > 1:
-      waveform = np.mean(waveform, axis=1)
-    if sr != self.params.sample_rate:
-      waveform = resampy.resample(waveform, sr, self.params.sample_rate)
-
-    # Predict YAMNet classes.
-    scores, embeddings, spectrogram = self.yamnet(waveform)
-    # Scores is a matrix of (time_frames, num_classes) classifier scores.
-    # Average them along time to get an overall classifier output for the clip.
-    prediction = np.mean(scores, axis=0)
-    # Report the highest-scoring classes and their scores.
-    top_predictions = np.argsort(prediction)[::-1][:3]
-
-    if expected_class in self.yamnet_classes[top_predictions]:
-      if self.yamnet_classes[top_predictions][0] != 'Silence':
-        print(f'found {expected_class} in {self.yamnet_classes[top_predictions]}')
-        return True
-      else:
-        print('rejected for silence')
-        return False
-    else:
-      return False
-
-    # print(self.yamnet_classes[top5_i][0])
-
-    # for t in top5_i:
-    #   print(self.yamnet_classes[t])
-
-yamnet = Yamnet()
-
-
-
-import numpy as np
-import matplotlib.pyplot as plt
-import IPython.display as ipd
-import random
 
 def verify_stems(json, sr, key_list, yamnet_classes, thresh_db, frame_len, hop, min_len, save_dir='', max_secs=120*60):
 
@@ -100,20 +43,6 @@ def verify_stems(json, sr, key_list, yamnet_classes, thresh_db, frame_len, hop, 
           filt_clips.append(c)
           all_samps += total_samps
 
-          # if len(c) < sr*3 and random.random() < 0.05:
-          #   plt.title('accepted')
-          #   plt.plot(c, color='green')
-          #   ipd.display(ipd.Audio(c, rate=sr, autoplay=False))
-          #   plt.show()
-          #   print('\n =============================== \n')
-        # else:
-        #   if len(c) < sr*3 and random.random() < 0.05:
-        #     plt.title('accepted')
-        #     plt.plot(c, color='green')
-        #     ipd.display(ipd.Audio(c, rate=sr, autoplay=False))
-        #     plt.show()
-        #     print('\n =============================== \n')
-
       if len(filt_clips) > 0:
         all_clips.append(filt_clips)
 
@@ -127,14 +56,28 @@ def verify_stems(json, sr, key_list, yamnet_classes, thresh_db, frame_len, hop, 
 
   return np.asarray(all_clips)
 
-sr=44100
-key_list = ['vox', 'vocal']
-yamnet_classes = ['Speech'] # list of matching classes for keys
-thresh_db = 45
-frame_len = 2048 # analysis frame
-hop = 1024 # analysis hop
-min_len = 16384 # in samples
-save_dir = '/content/drive/My Drive/Datasets/VoxVerified/'
+if __name__ == "__main__":
+  # generates a json containing sample indexes of verified classes for each track
+  parser = argparse.ArgumentParser()
+  parser.add_argument("--path", type=str, default="./multitracks/", 
+      help="path to downloaded mutlitracks")
+  parser.add_argument("-kw", type=str, default="keywords.txt",
+      help="keywords txt file that specifies search terms")
+  parser.add_argument("--c_thresh", type=int, default=80,
+      help="confidence threshold for fuzzy string matching")
+  parser.add_argument("-o", type=str, default="./dataset_map.json", 
+      help="output file for dataset map")
+  args = parser.parse_args()
 
-verified_clips = verify_stems(data, sr, key_list, yamnet_classes, thresh_db, frame_len, hop, min_len, save_dir)
-print(verified_clips.shape)
+
+  sr=44100
+  key_list = ['vox', 'vocal']
+  yamnet_classes = ['Speech'] # list of matching classes for keys
+  thresh_db = 45
+  frame_len = 2048 # analysis frame
+  hop = 1024 # analysis hop
+  min_len = 16384 # in samples
+  save_dir = '/content/drive/My Drive/Datasets/VoxVerified/'
+
+  verified_clips = verify_stems(data, sr, key_list, yamnet_classes, thresh_db, frame_len, hop, min_len, save_dir)
+  print(verified_clips.shape)
