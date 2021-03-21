@@ -1,4 +1,5 @@
-# various methods for verifying that audio data matches its label
+# methods for verifying that audio data matches its label
+# create a json directory to sound events verified by yamnet
 from yamnet_classifier import Yamnet
 import resampy
 import argparse
@@ -8,7 +9,6 @@ import utils
 import os
 
 def verify_stems(json, sr, key_list, yamnet_classes, thresh_db, frame_len, hop, min_len, save_dir='', max_secs=120*60):
-
 
   def save_npy(key, data):
     data = np.asarray(all_clips)
