@@ -3,14 +3,25 @@
 import params as yamnet_params
 import yamnet as yamnet_model
 import resampy
+import requests
+import utils
+import os
 
 # yamnet verification - classifier trained on audioset 
 class Yamnet():
   def __init__(self, weights='yamnet.h5', class_names='yamnet_class_map.csv'):
+    self.download_weights()
     self.params = yamnet_params.Params()
     self.yamnet = yamnet_model.yamnet_frames_model(self.params)
     self.yamnet.load_weights(weights)
     self.yamnet_classes = yamnet_model.class_names('yamnet_class_map.csv')
+
+  def download_weights(self, path="./yamnet/model/yamnet.h5"):
+    if not os.path.exists("./yamnet/model/yamnet.h5"):
+      print(f"downloading yamnet weights to {path}")
+      utils.download("https://storage.googleapis.com/audioset/yamnet.h5", "./yamnet/model/yamnet.h5")
+    else:
+      print(f"using yamnet weights found at {path}")
 
   def yamnet_inference(self, waveform, sr, expected_class):
     waveform = waveform.astype('float32')
@@ -28,9 +39,6 @@ class Yamnet():
     prediction = np.mean(scores, axis=0)
     # Report the highest-scoring classes and their scores.
     top_predictions = np.argsort(prediction)[::-1][:3]
-    
-    # if any(t < 0 for t in x):
-
 
     if expected_class in self.yamnet_classes[top_predictions]:
       if self.yamnet_classes[top_predictions][0] != 'Silence':

@@ -7,9 +7,10 @@ import json
 from bs4 import BeautifulSoup
 import os
 import zipfile
-from tqdm import tqdm
+# from tqdm import tqdm
 import threading
 import argparse
+import utils
 
 # return beautiful soup parsed html page
 def parse_page(url):
@@ -45,17 +46,17 @@ def unzip_async(zip_path, out_path):
     print(f"sucessfully unzipped {zip_path}, deleting zip")
     os.remove(zip_path)
 
-# downloads a single zip
-def download(url, save_path, chunk_size=128):
-    # filesize = requests.head(url)
-    r = requests.get(url, stream=True)
-    filesize = int(r.headers['Content-Length'])
-    pbar = tqdm(total=filesize)
-    with open(save_path, 'wb') as fd:
-        for chunk in r.iter_content(chunk_size=chunk_size):
-            fd.write(chunk)
-            pbar.update(chunk_size)
-    pbar.close()
+# downloads a single file
+# def download(url, save_path, chunk_size=128):
+#     # filesize = requests.head(url)
+#     r = requests.get(url, stream=True)
+#     filesize = int(r.headers['Content-Length'])
+#     pbar = tqdm(total=filesize)
+#     with open(save_path, 'wb') as fd:
+#         for chunk in r.iter_content(chunk_size=chunk_size):
+#             fd.write(chunk)
+#             pbar.update(chunk_size)
+#     pbar.close()
 
 # downloads and unzips files from links
 def download_all_files(links, save_path):
@@ -82,7 +83,7 @@ def download_all_files(links, save_path):
             os.mkdir(out_path)
             temp_file = f'./temp/temp_{filename}.zip'
             print(f'downloading {filename}, zip # {i}/{len(links)}')
-            download(l, temp_file)
+            utils.download(l, temp_file)
             w = threading.Thread(target=unzip_async, args=(temp_file, out_path))
             unzip_workers.append(w)
             w.start()
