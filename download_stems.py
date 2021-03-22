@@ -10,7 +10,6 @@ import zipfile
 from tqdm import tqdm
 import threading
 import argparse
-import utils
 
 # return beautiful soup parsed html page
 def parse_page(url):
@@ -83,7 +82,7 @@ def download_all_files(links, save_path):
             os.mkdir(out_path)
             temp_file = f'./temp/temp_{filename}.zip'
             print(f'downloading {filename}, zip # {i}/{len(links)}')
-            utils.download(l, temp_file)
+            download(l, temp_file)
             w = threading.Thread(target=unzip_async, args=(temp_file, out_path))
             unzip_workers.append(w)
             w.start()
