@@ -46,5 +46,16 @@ extract_labels.py saves a json map of files and associated labels.
 python extract_labels.py -kw /path/to/keywords.txt
 ```
 
+## Filter/Verify Audio Stems
+To improve the accuracy of the dataset, [YAMNet](https://github.com/tensorflow/models/tree/master/research/audioset/yamnet) can be used to generate a dataset map containing sample indicies of "verified" matches between the audio content and a provided keyword label. This process also removes periods of silence using the strip_silence function.
 
+### Create custom verified dataset map using YAMNet
+- Cross check all stems marked as "vox" with AudioSet classes ["Speech"](https://research.google.com/audioset/dataset/speech.html) and ["Singing"](https://research.google.com/audioset/dataset/singing.html), while rejecting ["Silence"](https://research.google.com/audioset/dataset/silence.html)
+```bash
+python yamnet_verify.py -kw vox --approve Speech Singing --reject Silence
+```
 
+- Change the dB threshold for silence removal before processing (reduces number of inferences required)
+```bash
+python yamnet_verify.py -kw vox --approve Speech Singing --reject Silence --thresh 35
+```
