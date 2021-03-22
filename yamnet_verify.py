@@ -15,27 +15,41 @@ import os
 
 def save_json(out_path, data):
   with open(out_path, 'w') as outfile:
-    json.dump(data, outfile)
+    json.dump(data, outfile, sort_keys=True, indent=4)
   print(f'wrote json to {out_path}')
+
+def load_json(path):
+  with open(path) as json_file:
+      jfile = json.load(json_file)
+  return jfile
 
 # kw_class - class in keywords.txt to match (only one allowed)
 # yam_approve - any of the 527 classes in audioset to match for
 # yam_reject - any of the 527 classes in audioset to reject
 # https://research.google.com/audioset/dataset/index.html
-def verify_classes_yamnet(dataset_map, silence_thresh, kw_class, yam_approve, yam_reject=['Silence']):
+def verify_classes_yamnet(verified_classmap, dataset_map, silence_thresh, kw_class, yam_approve, yam_reject=['Silence']):
 
   yamnet = Yamnet()
   
-  verified_classmap = {}
+  # verified_classmap = {}
+  cm_keys = verified_classmap.keys()
 
   total_sessions = len(dataset_map.keys())
 
+  print(f'TOTAL SESSIONS : {total_sessions}')
+
   for i, k in enumerate(dataset_map.keys()):
+    print(f'ENUMERATING KEY {i}')
     # get all matching stems for kw_class
     matching_stems = dataset_map[k][kw_class]
-    verified_classmap[k] = {}
-    # verified_classmap[k]["path"] = dataset_map[k]["path"]
+
+    if k not in cm_keys:
+      verified_classmap[k] = {}
+
+    # by default this will overwrite an existing class
     verified_classmap[k][kw_class] = {}
+
+    print(f'verifying {len(matching_stems)} stems in {k}')
 
     for stem in matching_stems:
       stem_name = os.path.splitext(stem)[0]
@@ -71,12 +85,13 @@ def verify_classes_yamnet(dataset_map, silence_thresh, kw_class, yam_approve, ya
         verified_classmap[k][kw_class][stem_name]["num_samps"] = int(num_samps)
         # TODO: add matched class labels to dict
         # verified_indicies[k][kw_class][stem_name]["audioset_label"] = matched_classes
-    return verified_classmap
-        
+  return verified_classmap
+
 
 if __name__ == "__main__":
   # generates a json containing sample indexes of verified classes for each track
   # see https://research.google.com/audioset/dataset/index.html for list of valid AudioSet labels
+  # if a verified map already exists, the file will be updated with the new information added
   parser = argparse.ArgumentParser()
   parser.add_argument("--path", type=str, default="./multitracks/", 
       help="path to downloaded mutlitracks")
@@ -95,13 +110,21 @@ if __name__ == "__main__":
 
   args = parser.parse_args()
 
-  with open(args.map) as json_file:
-      dataset_map = json.load(json_file)
+  # with open(args.map) as json_file:
+  #     dataset_map = json.load(json_file)
+  dataset_map = load_json(args.map)
 
   yam_approve = list(args.approve)
   yam_reject = list(args.reject)
+
+  if os.path.exists(args.out):
+    print(f'{args.out} already exists, modifying...')
+    verified_classmap = load_json(args.out)
+  else:
+    verified_classmap = {}
+
   
-  verified = verify_classes_yamnet(dataset_map, args.thresh, args.kw, yam_approve, yam_reject)
+  verified = verify_classes_yamnet(verified_classmap, dataset_map, args.thresh, args.kw, yam_approve, yam_reject)
 
   save_json(args.out, verified)
   print(f'saved verified map to {args.out}')

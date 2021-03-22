@@ -59,3 +59,8 @@ python yamnet_verify.py -kw vox --approve Speech Singing --reject Silence
 ```bash
 python yamnet_verify.py -kw bass --approve "Bass guitar" --reject Silence --thresh 35
 ```
+
+- Combine filters for specific tones, such as a *clean* guitar tone
+```bash
+python yamnet_verify.py -kw gtr --approve Guitar --reject Distortion Silence
+```

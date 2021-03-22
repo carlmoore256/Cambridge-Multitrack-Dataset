@@ -82,8 +82,7 @@ if __name__ == "__main__":
     print("filtering mutlitrack stems for labels")
     dir_map = create_label_map(args.path, kw_filter)
 
-    with open(args.o, 'w') as outfile:
-      json.dump(dir_map, outfile)
+
 
     print(f"directory map saved to {args.o}")
 

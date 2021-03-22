@@ -46,3 +46,6 @@ def samples_above_thresh(audio, thresh, frame_length=2048, hop_length=512, min_l
 
     #         filt_intervals.append(i)
 
+# split audio into chunks given start and end indexes in ndarray
+# def split_audio_at_idxs()
+
