@@ -57,5 +57,5 @@ python yamnet_verify.py -kw vox --approve Speech Singing --reject Silence
 
 - Change the dB threshold for silence removal before processing (reduces number of inferences required)
 ```bash
-python yamnet_verify.py -kw vox --approve Speech Singing --reject Silence --thresh 35
+python yamnet_verify.py -kw bass --approve "Bass guitar" --reject Silence --thresh 35
 ```
