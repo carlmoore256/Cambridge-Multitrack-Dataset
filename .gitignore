@@ -1,6 +1,7 @@
 multitracks/
 temp/
 notes.txt
+interactive_testing.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

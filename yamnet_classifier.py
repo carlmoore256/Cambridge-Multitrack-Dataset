@@ -10,11 +10,7 @@ class Yamnet():
     self.model = hub.load('https://tfhub.dev/google/yamnet/1')
 
     class_map_path = self.model.class_map_path().numpy()
-    self.class_names = class_names_from_csv(class_map_path)
-
-
-    self.yamnet.load_weights(weights_path)
-    self.yamnet_classes = yamnet_model.class_names(class_names)
+    self.yamnet_classes = self.class_names_from_csv(class_map_path)
 
   # Find the name of the class with the top score when mean-aggregated across frames.
   def class_names_from_csv(self, class_map_csv_text):
@@ -28,12 +24,11 @@ class Yamnet():
     return class_names
 
   # Ensure sr and channels match expected input to yamnet (16000, mono)
-  def ensure_sample_rate(
-                       waveform,
+  def ensure_sample_rate(waveform,
                        sr,
                        desired_sr=16000):
-    if len(waveform.shape) > 1:
-      waveform = np.mean(waveform, axis=1)
+    # if len(waveform.shape) > 1:
+    #   waveform = np.mean(waveform, axis=1)
     if sr != desired_sr:
       waveform = resampy.resample(waveform, sr, desired_sr)
     return waveform
@@ -41,7 +36,7 @@ class Yamnet():
   # returns num_top highest score predictions
   def predict_classes(self, waveform, sr, num_top=3):
     # waveform = waveform.astype('float32')
-    waveform = ensure_sample_rate(waveform, sr)
+    # waveform = self.ensure_sample_rate(waveform, sr)
     scores, embeddings, spectrogram = self.model(waveform)
     # Scores is a matrix of (time_frames, num_classes) classifier scores.
     # Average them along time to get an overall classifier output for the clip.
@@ -50,17 +45,47 @@ class Yamnet():
     top_predictions = np.argsort(prediction)[::-1][:num_top]
     return top_predictions
 
-  def verify_class(self, waveform, sr, expected_class, reject_class=["Silence"]):
+  # maps the integer prediction to the class string
+  def map_class_predictions(self, predictions):
+    return np.take(self.yamnet_classes, predictions)
+
+  def verify_class(self, waveform, sr, expected_classes, reject_classes=["Silence"]):
     top_predictions = self.predict_classes(waveform, sr, num_top=3)
-    # check if expected classes found in predictions
-    if expected_class in self.yamnet_classes[top_predictions]:
-      # filter out reject classes
-      if self.yamnet_classes[top_predictions][0] not in reject_class:
-        print(f'found {expected_class} in {self.yamnet_classes[top_predictions]}')
-        return True
+
+    top_predictions = self.map_class_predictions(top_predictions)
+
+    # check for positive matches
+    pos_matches = self.compare_intersect(top_predictions, expected_classes)
+    # check against rejection classes like "Silence"
+    neg_matches = self.compare_intersect(pos_matches, reject_classes)
+
+    if len(pos_matches) > 0:
+      if len(neg_matches) == 0:
+        print(f'found {pos_matches} in {top_predictions}')
+        return pos_matches
       else:
-        print(f'sample rejected for {reject_class[0]}')
-        return False
+        print(f'rejected for {neg_matches}')
+        return None
     else:
-      print(f'sample rejected, {expected_class} not identified')
-      return False
+      return None
+      print(f'no matching classes identified')
+
+    # matches = set(self.yamnet_classes[top_predictions]) & set(expected_classes)
+  
+    # # check if expected classes found in predictions
+    # if expected_classes in self.yamnet_classes[top_predictions]:
+    #   # filter out reject classes
+    #   if self.yamnet_classes[top_predictions][0] not in reject_classes:
+    #     print(f'found {expected_classes} in {self.yamnet_classes[top_predictions]}')
+    #     return True
+    #   else:
+    #     print(f'sample rejected for {reject_classes[0]}')
+    #     return False
+    # else:
+    #   print(f'sample rejected, {expected_classes} not identified')
+    #   return False
+
+  # courtesy of https://stackoverflow.com/questions/1388818/how-can-i-compare-two-lists-in-python-and-return-matches
+  def compare_intersect(self, x, y):
+    # return set(x) & set(y)
+    return frozenset(x).intersection(y)
