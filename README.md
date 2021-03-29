@@ -1,6 +1,8 @@
 # Cambridge-Multitrack-Dataset
 Tools for downloading, sorting and analyzing the [Cambridge Multitracks library](https://www.cambridge-mt.com/ms/mtk/) for machine learning applications. [Example](https://github.com/carlmoore256/NextBlock)
 
+![example-correlated-transients-03](misc/ohsnr_example_03.png)
+
 ## Installation
 - Download repo and install dependencies
 ```bash
