@@ -64,3 +64,12 @@ python yamnet_verify.py -kw bass --approve "Bass guitar" --reject Silence --thre
 ```bash
 python yamnet_verify.py -kw gtr --approve Guitar --reject Distortion Silence
 ```
+
+### Create a transient-aligned dataset
+Automatically find stems containing x, y pairs of correlated transients for regressive models
+
+- Create a dataset containing correlated transients from overhead mics (x) and snare mics (y), with a window size of 8192 samples/clip
+
+```bash
+python transient_verify.py --xkey overhead --ykey snare --ws 8192
+```

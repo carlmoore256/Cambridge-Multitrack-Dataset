@@ -6,19 +6,18 @@ import librosa
 import json
 import numpy as np
 import file_utils
+import argparse
 
 def extract_transients(audio, sr, ws, start_pad, hop=512, backtrack=True):
     # grab onset times; backtrack detects minimum before transient
     beats = librosa.onset.onset_detect(y=audio, sr=sr, units='frames', hop_length=hop, backtrack=backtrack)
     frames = librosa.util.frame(audio, frame_length=ws, hop_length=hop)
-    
     return frames.T, beats
 
-  # verify transients are at same position
+# verify transients are at same position
 def correlate_transients(x, y):
     shared = np.intersect1d(x, y)
     print(f'len x {len(x)} len y {len(y)} len shared {len(shared)}')
-
     return shared
 
 def analyze_contrast(block, sr=44100):
@@ -74,7 +73,7 @@ def validate_transients(x, y, sr=44100, visualize_rejects=False):
 
     x_valid = np.asarray(x_valid)
     y_valid = np.asarray(y_valid)
-    print(f'valid samples {x_valid.shape[0]}')
+    # print(f'valid samples {x_valid.shape[0]}')
 
     if visualize_rejects:
         rejects_x = np.asarray(rejects_x)
@@ -83,8 +82,8 @@ def validate_transients(x, y, sr=44100, visualize_rejects=False):
 
     return x_valid, y_valid
 
-def gen_dataset(data:"JSON dataset map",
-                ws:"window size", 
+def gen_dataset(data,
+                ws, 
                 x_key,
                 y_key,
                 normalize_stems=False,
@@ -92,71 +91,94 @@ def gen_dataset(data:"JSON dataset map",
                 max_examples=100,
                 sample_rate=44100,
                 difference_mask=False): #"difference_mask = output y as (x - y)"
-  x_train = []
-  y_train = []
+    x_train = []
+    y_train = []
 
-  for i, k in enumerate(data.keys()):
-    x = data[k][x_key]
-    y = data[k][y_key]
-    try:
-      if len(x) > 0 and len(y) > 0:
+    for i, k in enumerate(data.keys()):
+        x = data[k][x_key]
+        y = data[k][y_key]
+        try:
+            if len(x) > 0 and len(y) > 0:
+                print(f'loading {data[k][x_key][0]}')
+                print(f'loaded {i} of {max_examples}')
 
-        print(f'loading {data[k][x_key][0]}')
-        print(f'loaded {i} of {max_examples}')
+                audio_x, sr = librosa.load(data[k][x_key][0], sr=sample_rate, res_type='kaiser_fast')
+                audio_y, _ = librosa.load(data[k][y_key][0], sr=sample_rate, res_type='kaiser_fast')
 
-        audio_x, sr = librosa.load(data[k][x_key][0], sr=sample_rate, res_type='kaiser_fast')
-        audio_y, _ = librosa.load(data[k][y_key][0], sr=sample_rate, res_type='kaiser_fast')
+                if normalize_stems: # NORMALIZES ENTIRE STEM, NOT INDIVIDUAL SAMPLES
+                    audio_x = librosa.util.normalize(audio_x)
+                    audio_y = librosa.util.normalize(audio_y)
 
-        if normalize_stems: # NORMALIZES ENTIRE STEM, NOT INDIVIDUAL SAMPLES
-          audio_x = librosa.util.normalize(audio_x)
-          audio_y = librosa.util.normalize(audio_y)
+                print('loaded files, analyzing transients')
+                frames_x, bx = extract_transients(audio_x, sr, ws, 0)
+                frames_y, by = extract_transients(audio_y, sr, ws, 0)
 
-        print('loaded files, analyzing transients')
-        frames_x, bx = extract_transients(audio_x, sr, ws, 0)
-        frames_y, by = extract_transients(audio_y, sr, ws, 0)
+                idx_shared = correlate_transients(bx, by)
 
-        idx_shared = correlate_transients(bx, by)
+                tx = frames_x[idx_shared]
+                ty = frames_y[idx_shared]
 
-        tx = frames_x[idx_shared]
-        ty = frames_y[idx_shared]
+                tx, ty = validate_transients(tx, ty) # verify transients are clean
 
-        tx, ty = validate_transients(tx, ty) # verify transients are clean
+                for x_trans, y_trans in zip(tx, ty):
+                    if normalize_transients:
+                        x_trans = librosa.util.normalize(x_trans)
+                        y_trans = librosa.util.normalize(y_trans)
 
-        for x_trans, y_trans in zip(tx, ty):
-          if normalize_transients:
-            x_trans = librosa.util.normalize(x_trans)
-            y_trans = librosa.util.normalize(y_trans)
+                    if difference_mask: # calcuate difference
+                        y_trans = x_trans - y_trans
+                    
+                    x_train.append(x_trans)
+                    y_train.append(y_trans)
+        except:
+            print('error with loading file, skipping')
+            continue
 
-          if difference_mask: # calcuate difference
-            y_trans = x_trans - y_trans
-          
-          x_train.append(x_trans)
-          y_train.append(y_trans)
-    except:
-      print('error with loading file, skipping')
-      continue
+        if max_examples > 0 and i+1 > max_examples:
+            break
 
-    if i+1 > max_examples:
-      break
-    
-  x_train = np.asarray(x_train)
-  y_train = np.asarray(y_train)
-  
-  print(f'x shape {x_train.shape} y shape {y_train.shape}')
+    x_train = np.asarray(x_train)
+    y_train = np.asarray(y_train)
 
-  return x_train, y_train
+    print(f'x shape {x_train.shape} y shape {y_train.shape}')
+
+    return x_train, y_train
 
 if __name__ == "__main__":
 
-    dataset_map = file_utils.load_json("dataset_map.json")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--out", type=str, default="./transients/", 
+        help="directory to place npy saved dataset")
+    parser.add_argument("--xkey", type=str, default="overhead",
+        help="key to match for x")
+    parser.add_argument("--ykey", type=str, default="snare",
+        help="key to match for y")
+    parser.add_argument("--ws", type=int, default=8192,
+        help="window size, length in samples of isolated transients")
+    parser.add_argument("--map", type=str, default="dataset_map.json", 
+        help="path do json dataset map")
+    parser.add_argument("--max_examples", type=int, default=0, 
+        help="threshold in db to reject silence")
+    parser.add_argument("--normalize", type=bool, default=False, 
+        help="normalize stems (normalizes audio file from start to end, not individual samples)")
+    parser.add_argument("--normalize_transients", type=bool, default=False, 
+        help="normalize individual transients")
+    parser.add_argument("--diff_mask", type=bool, default=False, 
+        help="y = (x - y), for source separation masking")
 
-    x_key = "overhead"
-    y_key = "snare"
+    args = parser.parse_args()
 
-    for k in dataset_map.keys():
+    x, y = gen_dataset(file_utils.load_json(args.map),
+                args.ws, 
+                args.xkey,
+                args.ykey,
+                normalize_stems=args.normalize,
+                normalize_transients=args.normalize_transients, 
+                max_examples=args.max_examples,
+                sample_rate=44100,
+                difference_mask=args.diff_mask)
 
-        mt = dataset_map[k]
-
-        if x_key in mt.keys() and y_key in mt.keys():
-            print(dataset_map[k][x_key])
-            print(dataset_map[k][y_key])
+    np.save(f'{args.out}/x_{args.xkey}_{args.ws}_{len(x)}.npy', x)
+    np.save(f'{args.out}/y_{args.ykey}_{args.ws}_{len(y)}.npy', y)
+    print(f'saved x y pairs in {args.out}')
+    
