@@ -9,19 +9,20 @@ import audio_utils
 import resampy
 import argparse
 import numpy as np
+import file_utils
 import requests
 import json
 import os
 
-def save_json(out_path, data):
-  with open(out_path, 'w') as outfile:
-    json.dump(data, outfile, sort_keys=True, indent=4)
-  print(f'wrote json to {out_path}')
+# def save_json(out_path, data):
+#   with open(out_path, 'w') as outfile:
+#     json.dump(data, outfile, sort_keys=True, indent=4)
+#   print(f'wrote json to {out_path}')
 
-def load_json(path):
-  with open(path) as json_file:
-      jfile = json.load(json_file)
-  return jfile
+# def load_json(path):
+#   with open(path) as json_file:
+#       jfile = json.load(json_file)
+#   return jfile
 
 # kw_class - class in keywords.txt to match (only one allowed)
 # yam_approve - any of the 527 classes in audioset to match for
@@ -112,19 +113,19 @@ if __name__ == "__main__":
 
   # with open(args.map) as json_file:
   #     dataset_map = json.load(json_file)
-  dataset_map = load_json(args.map)
+  dataset_map = file_utils.load_json(args.map)
 
   yam_approve = list(args.approve)
   yam_reject = list(args.reject)
 
   if os.path.exists(args.out):
     print(f'{args.out} already exists, modifying...')
-    verified_classmap = load_json(args.out)
+    verified_classmap = file_utils.load_json(args.out)
   else:
     verified_classmap = {}
 
   
   verified = verify_classes_yamnet(verified_classmap, dataset_map, args.thresh, args.kw, yam_approve, yam_reject)
 
-  save_json(args.out, verified)
+  file_utils.save_json(args.out, verified)
   print(f'saved verified map to {args.out}')
