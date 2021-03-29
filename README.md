@@ -71,6 +71,8 @@ Automatically find stems containing x, y pairs of correlated transients for regr
 
 - Create a dataset containing correlated transients from overhead mics (x) and snare mics (y), with a window size of 8192 samples/clip
 
+![example-correlated-transients](misc/ohsnr_example_02.png)
+
 ```bash
 python transient_verify.py --xkey overhead --ykey snare --ws 8192
 ```
