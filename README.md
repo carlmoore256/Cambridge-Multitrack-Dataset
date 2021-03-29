@@ -1,11 +1,9 @@
 # Cambridge-Multitrack-Dataset
 Tools for downloading, sorting and analyzing the [Cambridge Multitracks library](https://www.cambridge-mt.com/ms/mtk/) for machine learning applications.
 
-A few examples on how it can be used:
+![example-correlated-transients-03](misc/ohsnr_example_03.png)
 
 [Here](https://github.com/carlmoore256/Mic-Bleed-Removal-CNN), I train a UNet CNN to isolate and mask microphone bleed in similar manner to musical source separation. Pairs of coincident transient events are extracted and aligned from "overhead" and "snare" drum microphones, and saved as a dataset for training.
-
-![example-correlated-transients-03](misc/ohsnr_example_03.png)
 
 [In this project](https://github.com/carlmoore256/NextBlock) I use several hundred hours of vocal tracks to train an unsupervised learning signal reconstruction model, intended for repairing dropouts in low-latency audio calls between musicians.
 
