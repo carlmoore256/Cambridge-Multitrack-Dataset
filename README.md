@@ -10,10 +10,14 @@ pip install -r requirements.txt
 
 ## Getting Started
 ### Build a local library using the download utility
+
 - Download all available multitrack stems and unzip them into provided directory (default is "./multitracks")
 ```bash
 python download_stems.py
 ```
+
+![example-of-folder-structure](misc/folder_example_01.png)
+
 #### This will take a long time, since we are retrieving several hundred GBs of WAV files
 
 - (Optional) Download only a single genre using the --genre argument
