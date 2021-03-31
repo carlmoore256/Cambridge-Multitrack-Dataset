@@ -4,6 +4,7 @@
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 import argparse
+import file_utils
 import json
 import os
 
@@ -82,7 +83,7 @@ if __name__ == "__main__":
     print("filtering mutlitrack stems for labels")
     dir_map = create_label_map(args.path, kw_filter)
 
-
+    file_utils.save_json(args.o, dir_map)
 
     print(f"directory map saved to {args.o}")
 
