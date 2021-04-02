@@ -5,6 +5,7 @@ tom
 overhead
 OH
 cymbal
+crash
 ride
 clap
 percussion
@@ -27,6 +28,7 @@ DI
 amp
 lead
 backing
+rhythm
 elec
 acoustic
 in
@@ -37,3 +39,15 @@ close
 mic
 sample
 FX
+lyrical
+octave
+pizz
+violin
+viola
+cello
+mandolin
+glockenspiel
+horn
+harmonica
+rhodes
+shaker
