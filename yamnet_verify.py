@@ -14,16 +14,6 @@ import requests
 import json
 import os
 
-# def save_json(out_path, data):
-#   with open(out_path, 'w') as outfile:
-#     json.dump(data, outfile, sort_keys=True, indent=4)
-#   print(f'wrote json to {out_path}')
-
-# def load_json(path):
-#   with open(path) as json_file:
-#       jfile = json.load(json_file)
-#   return jfile
-
 # kw_class - class in keywords.txt to match (only one allowed)
 # yam_approve - any of the 527 classes in audioset to match for
 # yam_reject - any of the 527 classes in audioset to reject
