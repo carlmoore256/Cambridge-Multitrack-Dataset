@@ -41,7 +41,7 @@ def extract_clips(path, silence_thresh, ws=2048, hop=1024, min_len=4096):
                                                 min_len=min_len)
     return clips, intervals, num_samps
 
-def create_map(data_path, kw_path, conf_thresh, silence_thresh):
+def create_map(data_path, kw_path, conf_thresh, silence_thresh, p_jobs=8):
     yamnet = Yamnet()
     keywords = file_utils.load_keywords(kw_path)
     kw_filt = extract_labels.FilterStems(keywords, conf_thresh)
@@ -56,18 +56,11 @@ def create_map(data_path, kw_path, conf_thresh, silence_thresh):
             # verify the files are valid ones
             valid_files = [os.path.abspath(os.path.join(root, f)) for f in files if is_valid_file(f)]
 
-            async_procs = []
-
-            args = [[f, silence_thresh, 2048, 1024, 4096] for f in valid_files]
-            delayed_funcs = [joblib.delayed(extract_clips)(args)]
-
-            jobs = joblib.cpu_count()
             print(f"{jobs} jobs extracting {len(valid_files)} clips from {session_name}")
-            extracted_clips = joblib.Parallel(n_jobs=jobs)(joblib.delayed(extract_clips)(f, silence_thresh, 2048, 1024, 4096) for f in valid_files)
+            extracted_clips = joblib.Parallel(n_jobs=p_jobs, backend="threading")(joblib.delayed(extract_clips)(f, silence_thresh, 2048, 1024, 4096) for f in valid_files)
 
             print(f"calculating features for {len(valid_files)} tracks in {session_name}")
 
-            # for i, f in enumerate(valid_files):
             for i, (clips, intervals, num_samps) in enumerate(extracted_clips):
                 f = valid_files[i]
 
