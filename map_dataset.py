@@ -41,7 +41,7 @@ def extract_clips(path, silence_thresh, ws=2048, hop=1024, min_len=4096):
                                                 min_len=min_len)
     return clips, intervals, num_samps
 
-def create_map(data_path, kw_path, conf_thresh, silence_thresh, p_jobs=8):
+def create_map(data_path, kw_path, conf_thresh, silence_thresh, n_jobs=8):
     yamnet = Yamnet()
     keywords = file_utils.load_keywords(kw_path)
     kw_filt = extract_labels.FilterStems(keywords, conf_thresh)
@@ -56,8 +56,8 @@ def create_map(data_path, kw_path, conf_thresh, silence_thresh, p_jobs=8):
             # verify the files are valid ones
             valid_files = [os.path.abspath(os.path.join(root, f)) for f in files if is_valid_file(f)]
 
-            print(f"{jobs} jobs extracting {len(valid_files)} clips from {session_name}")
-            extracted_clips = joblib.Parallel(n_jobs=p_jobs, backend="threading")(joblib.delayed(extract_clips)(f, silence_thresh, 2048, 1024, 4096) for f in valid_files)
+            print(f"{n_jobs} jobs extracting {len(valid_files)} clips from {session_name}")
+            extracted_clips = joblib.Parallel(n_jobs=n_jobs, backend="threading")(joblib.delayed(extract_clips)(f, silence_thresh, 2048, 1024, 4096) for f in valid_files)
 
             print(f"calculating features for {len(valid_files)} tracks in {session_name}")
 
@@ -124,16 +124,11 @@ if __name__ == "__main__":
         help="confidence threshold for fuzzy string matching")
     parser.add_argument("--thresh_db", type=int, default=45, 
         help="threshold in db to reject silence")
+    parser.add_argument("--n_jobs", type=int, default=8, 
+        help="num parallel worker threads to load & process audio files")
 
     args = parser.parse_args()
-
-    # try:
-    #     kw_map = file_utils.load_json(args.map)
-    # except:
-    #     print("could not load keyword map, creating one instead")
-    #     kw_map = extract_labels.create_label_map(args.path, args.kw, args.c_thresh)
-
-    # create_map(kw_map, args.kw)
-    dataset_map = create_map(args.path, args.kw, args.c_thresh, args.thresh_db)
+    
+    dataset_map = create_map(args.path, args.kw, args.c_thresh, args.thresh_db, args.n_jobs)
 
     file_utils.save_json(args.out, dataset_map, indent=2)
