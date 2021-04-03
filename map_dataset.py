@@ -43,21 +43,13 @@ def extract_clips(path, silence_thresh, ws=2048, hop=1024, min_len=4096):
 
 def create_map(data_path, kw_path, conf_thresh, silence_thresh):
     yamnet = Yamnet()
-
     keywords = file_utils.load_keywords(kw_path)
-
     kw_filt = extract_labels.FilterStems(keywords, conf_thresh)
-
     dir_map = {}
-
-    a = 0
 
     for root, dirs, files in os.walk(data_path):
         if len(dirs) > 0:
             session_name = get_session_name(dirs)
-
-        if a > 2:
-            break
 
         if session_name is not None and len(files) > 0:
             a += 1
@@ -104,8 +96,7 @@ def create_map(data_path, kw_path, conf_thresh, silence_thresh):
                 dir_map[session_name][track]["numsamps"] = int(num_samps)
                 dir_map[session_name][track]["intervals"] = list(corrected_intervals)
                 dir_map[session_name][track]["audioset"] = audioset_classes
-                if i > 1:
-                    break
+
     return dir_map
 
             
