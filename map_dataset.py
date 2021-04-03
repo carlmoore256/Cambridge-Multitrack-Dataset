@@ -119,13 +119,13 @@ if __name__ == "__main__":
         help="path to downloaded mutlitracks")
     parser.add_argument("--out", type=str, default="./complete_map.json", 
         help="output path of verified map")
-    parser.add_argument("--map", type=str, default="dataset_map.json", 
-        help="path do json dataset map, if it does not exist one will be created")
+    # parser.add_argument("--map", type=str, default="dataset_map.json", 
+    #     help="path do json dataset map, if it does not exist one will be created")
     parser.add_argument("-kw", type=str, default="keywords.txt",
         help="keywords txt file that specifies search terms")
     parser.add_argument("--c_thresh", type=int, default=80,
         help="confidence threshold for fuzzy string matching")
-    parser.add_argument("--thresh", type=int, default=45, 
+    parser.add_argument("--thresh_db", type=int, default=45, 
         help="threshold in db to reject silence")
 
     args = parser.parse_args()
@@ -137,6 +137,6 @@ if __name__ == "__main__":
     #     kw_map = extract_labels.create_label_map(args.path, args.kw, args.c_thresh)
 
     # create_map(kw_map, args.kw)
-    dataset_map = create_map(args.path, args.kw, args.c_thresh, args.thresh)
+    dataset_map = create_map(args.path, args.kw, args.c_thresh, args.thresh_db)
 
     file_utils.save_json(args.out, dataset_map, indent=2)

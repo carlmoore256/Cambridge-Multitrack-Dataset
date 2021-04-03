@@ -1,6 +1,6 @@
 # generate json directory map for the dataset
 # extract labels from wave file stems
-
+# CONSIDER RENAMING to map_keywords or something
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 import argparse

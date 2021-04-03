@@ -1,0 +1,240 @@
+{
+  "train": {},
+  "AlejoGranados_RumbaChonta": {
+    "10_BassDI": {
+      "path": "/content/drive/MyDrive/Datasets/MultitrackStems/AlejoGranados_RumbaChonta_Full/AlejoGranados_RumbaChonta_Full/10_BassDI.wav",
+      "keywords": [
+        "bass",
+        "DI"
+      ],
+      "numsamps": 3171328,
+      "intervals": [
+        [
+          259660,
+          273772
+        ],
+        [
+          276595,
+          524966
+        ],
+        [
+          527788,
+          8111577
+        ],
+        [
+          8114400,
+          9009100
+        ]
+      ],
+      "audioset": [
+        [
+          494,
+          0,
+          132,
+          500,
+          3
+        ],
+        [
+          132,
+          137,
+          135,
+          134,
+          133
+        ],
+        [
+          132,
+          137,
+          135,
+          134,
+          133
+        ],
+        [
+          132,
+          137,
+          494,
+          135,
+          134
+        ]
+      ]
+    },
+    "11_BassMic": {
+      "path": "/content/drive/MyDrive/Datasets/MultitrackStems/AlejoGranados_RumbaChonta_Full/AlejoGranados_RumbaChonta_Full/11_BassMic.wav",
+      "keywords": [
+        "bass",
+        "mic"
+      ],
+      "numsamps": 3172352,
+      "intervals": [
+        [
+          259660,
+          273772
+        ],
+        [
+          276595,
+          8111577
+        ],
+        [
+          8114400,
+          9009100
+        ]
+      ],
+      "audioset": [
+        [
+          494,
+          0,
+          132,
+          500,
+          3
+        ],
+        [
+          132,
+          137,
+          135,
+          134,
+          133
+        ],
+        [
+          132,
+          137,
+          135,
+          134,
+          494
+        ]
+      ]
+    },
+    "01_Bombo": {
+      "path": "/content/drive/MyDrive/Datasets/MultitrackStems/AlejoGranados_RumbaChonta_Full/AlejoGranados_RumbaChonta_Full/01_Bombo.wav",
+      "keywords": [],
+      "numsamps": 3048448,
+      "intervals": [
+        [
+          287884,
+          2029305
+        ],
+        [
+          2034950,
+          8695814
+        ]
+      ],
+      "audioset": [
+        [
+          132,
+          156,
+          159,
+          133,
+          163
+        ],
+        [
+          132,
+          156,
+          159,
+          133,
+          163
+        ]
+      ]
+    }
+  },
+  "BannedFromTheZoo_TurnOnMe": {
+    "12_BassAmp": {
+      "path": "/content/drive/MyDrive/Datasets/MultitrackStems/BannedFromTheZoo_TurnOnMe_Full/BannedFromTheZoo_TurnOnMe_Full/12_BassAmp.wav",
+      "keywords": [
+        "bass",
+        "amp"
+      ],
+      "numsamps": 4052992,
+      "intervals": [
+        [
+          496742,
+          544723
+        ],
+        [
+          547545,
+          11670624
+        ]
+      ],
+      "audioset": [
+        [
+          494,
+          135,
+          134,
+          133,
+          457
+        ],
+        [
+          132,
+          137,
+          135,
+          134,
+          133
+        ]
+      ]
+    },
+    "11_BassDI": {
+      "path": "/content/drive/MyDrive/Datasets/MultitrackStems/BannedFromTheZoo_TurnOnMe_Full/BannedFromTheZoo_TurnOnMe_Full/11_BassDI.wav",
+      "keywords": [
+        "bass",
+        "DI"
+      ],
+      "numsamps": 4032512,
+      "intervals": [
+        [
+          556012,
+          11670624
+        ]
+      ],
+      "audioset": [
+        [
+          132,
+          137,
+          135,
+          133,
+          134
+        ]
+      ]
+    },
+    "08_Tom2": {
+      "path": "/content/drive/MyDrive/Datasets/MultitrackStems/BannedFromTheZoo_TurnOnMe_Full/BannedFromTheZoo_TurnOnMe_Full/08_Tom2.wav",
+      "keywords": [
+        "tom"
+      ],
+      "numsamps": 3974144,
+      "intervals": [
+        [
+          429004,
+          465696
+        ],
+        [
+          499564,
+          11377094
+        ],
+        [
+          11422252,
+          11461766
+        ]
+      ],
+      "audioset": [
+        [
+          494,
+          132,
+          0,
+          500,
+          3
+        ],
+        [
+          132,
+          166,
+          167,
+          156,
+          133
+        ],
+        [
+          494,
+          0,
+          132,
+          500,
+          3
+        ]
+      ]
+    }
+  }
+}
