@@ -21,12 +21,6 @@ def strip_silence(audio, thresh, frame_length=2048, hop_length=512, min_len=8192
         clips.append(audio[i[0]:i[1]])
         total_samps += i[1] - i[0]
 
-    # for i in intervals:
-    #     if i[1] - i[0] >= min_len:
-    #         total_samps += i[1] - i[0]
-    #         clips.append(audio[i[0]:i[1]])
-
-    # clips = np.asarray(clips)
     return clips, intervals, total_samps
 
 # similar to strip_silence() but returns the indexes above threshdb with min and max length

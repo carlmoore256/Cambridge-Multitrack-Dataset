@@ -3,7 +3,7 @@
 import json
 import yamnet_classifier
 import argparse
-from multiprocessing.pool import ThreadPool
+import joblib
 import os
 import numpy as np
 
@@ -52,21 +52,34 @@ def create_map(data_path, kw_path, conf_thresh, silence_thresh):
             session_name = get_session_name(dirs)
 
         if session_name is not None and len(files) > 0:
-            a += 1
             dir_map[session_name] = {}
             # verify the files are valid ones
-            valid_files = [f for f in files if is_valid_file(f)]
+            valid_files = [os.path.abspath(os.path.join(root, f)) for f in files if is_valid_file(f)]
 
-            for i, f in enumerate(valid_files):
-                # gets the stripped silence clips requested from the previous loop
+            async_procs = []
+
+            args = [[f, silence_thresh, 2048, 1024, 4096] for f in valid_files]
+            delayed_funcs = [joblib.delayed(extract_clips)(args)]
+
+            jobs = joblib.cpu_count()
+            print(f"{jobs} jobs extracting {len(valid_files)} clips from {session_name}")
+            extracted_clips = joblib.Parallel(n_jobs=jobs)(joblib.delayed(extract_clips)(f, silence_thresh, 2048, 1024, 4096) for f in valid_files)
+
+            print(f"calculating features for {len(valid_files)} tracks in {session_name}")
+
+            # for i, f in enumerate(valid_files):
+            for i, (clips, intervals, num_samps) in enumerate(extracted_clips):
+                f = valid_files[i]
+
                 full_path = os.path.join(root, f)
                 full_path = os.path.abspath(full_path)
+
                 # REMOVE SILENCE BEFORE YAMNET PROCESSING
-                clips, intervals, num_samps = extract_clips(full_path,
-                                                            silence_thresh,
-                                                            ws=2048, 
-                                                            hop=1024, 
-                                                            min_len=4096)
+                # clips, intervals, num_samps = extract_clips(full_path,
+                #                                             silence_thresh,
+                #                                             ws=2048, 
+                #                                             hop=1024, 
+                #                                             min_len=4096)
 
                 audioset_classes = []
                 corrected_intervals = []

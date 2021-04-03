@@ -30,5 +30,4 @@ def iterate_dataset_map(path):
   for a in dataset_map.keys():
     for b in dataset_map[a].keys():
       yield dataset_map[a][b]
-        
 
