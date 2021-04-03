@@ -44,15 +44,16 @@ class Yamnet():
     prediction = np.mean(scores, axis=0)
     # Report the highest-scoring classes and their scores.
     top_predictions = np.argsort(prediction)[::-1][:num_top]
-    return self.map_class_predictions(top_predictions)
+    return top_predictions
 
   # maps the integer prediction to the class string
   def map_class_predictions(self, predictions):
     return np.take(self.yamnet_classes, predictions)
 
-
   def verify_class(self, waveform, sr, expected_classes, reject_classes=["Silence"]):
     top_predictions = self.predict_classes(waveform, sr, num_top=3)
+
+    top_predictions = self.map_class_predictions(top_predictions)
     # check for positive matches
     pos_matches = self.compare_intersect(top_predictions, expected_classes)
     # check against rejection classes like "Silence"

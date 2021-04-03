@@ -2,9 +2,9 @@
 
 import json
 import os
-def save_json(out_path, data):
+def save_json(out_path, data, indent=3):
   with open(out_path, 'w') as outfile:
-    json.dump(data, outfile, sort_keys=True, indent=4)
+    json.dump(data, outfile, sort_keys=False, indent=indent)
   print(f'wrote json to {out_path}')
 
 def load_json(path):
@@ -20,8 +20,11 @@ def load_keywords(path):
     keywords.append(l.strip())
   return keywords
 
-# def session_file_iterator(path):
+# useful for iterating dataset map, yields an individual track
+def iterate_dataset_map(path):
+  dataset_map = load_json(path)
+  for a in dataset_map.keys():
+    for b in dataset_map[a].keys():
+      yield dataset_map[a][b]
+        
 
-#   while True:
-
-#     yield 
