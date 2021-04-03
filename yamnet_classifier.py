@@ -47,13 +47,13 @@ class Yamnet():
     return top_predictions
 
   # maps the integer prediction to the class string
-  def map_class_predictions(self, predictions):
+  def map_audioset_classes(self, predictions):
     return np.take(self.yamnet_classes, predictions)
 
   def verify_class(self, waveform, sr, expected_classes, reject_classes=["Silence"]):
     top_predictions = self.predict_classes(waveform, sr, num_top=3)
 
-    top_predictions = self.map_class_predictions(top_predictions)
+    top_predictions = self.map_audioset_classes(top_predictions)
     # check for positive matches
     pos_matches = self.compare_intersect(top_predictions, expected_classes)
     # check against rejection classes like "Silence"
@@ -89,3 +89,20 @@ class Yamnet():
   def compare_intersect(self, x, y):
     # return set(x) & set(y)
     return frozenset(x).intersection(y)
+
+# contains utilities for mapping classes to proper string classes
+class AudiosetClasses():
+  def __init__(self, path):
+    self.class_map = self.load_class_map(path)
+  
+  def load_class_map(self, path):
+    class_map = {}
+    with open(path, mode='r') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+          class_map[int(row["index"])] = row["display_name"]
+    return class_map
+
+  # return the string array of int classes
+  def get_class_str(self, classes):
+    return [self.class_map[int(c)] for c in classes]

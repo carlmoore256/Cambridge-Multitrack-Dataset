@@ -2,6 +2,9 @@
 
 import json
 import os
+# import csv
+
+
 def save_json(out_path, data, indent=3):
   with open(out_path, 'w') as outfile:
     json.dump(data, outfile, sort_keys=False, indent=indent)
@@ -19,6 +22,7 @@ def load_keywords(path):
   for l in lines:
     keywords.append(l.strip())
   return keywords
+
 
 # useful for iterating dataset map, yields an individual track
 def iterate_dataset_map(path):
