@@ -86,20 +86,34 @@ def create_map(data_path, kw_path, conf_thresh, silence_thresh, n_jobs=8, dir_ma
                 corrected_intervals = []
                 corrected_num_samps = 0
 
+                # consider chopping these up into smaller bits for input to yamnet for 
+                # more accurate classification
                 for j, (clip, interval) in enumerate(zip(clips, intervals)):
-                    classes = yamnet.predict_classes(waveform=clip, 
-                                            sr=16000,
-                                            num_top=5)
-                    # json serializer is very picky, so all these seemingly pointless
-                    # casts are required...
-                    # audioset_classes.append(list(classes.astype(np.int16)))
-                    audioset_classes.append(classes.tolist())
-                    # because we're making a prediction based on a DOWNSAMPLED version of the 
-                    # track, we need to convert our sample indicies back up to 44.1kHz
-                    # for an accurate location
-                    interval = (np.array(interval) / 16000) * 44100
-                    corrected_intervals.append([int(interval[0]), int(interval[1])])
-                    corrected_num_samps += int(interval[1]) - int(interval[0])
+
+                    subframes = get_frames(clip, 16384, 16384) # slip each clip into sub-frames
+                    print(f'processing {len(subframes)} sub frames')
+                    
+                    for i, sf in enumerate(subframes):
+                        
+                        sf_index_start = i * 16384
+                        sf_index_end = (i+1) * 16384
+
+                        sf_interval = [interval[0] + sf_index_start, interval[1] + sf_index_end]
+
+                        classes = yamnet.predict_classes(waveform=clip[sf_index_start:sf_index_end], 
+                                                        sr=16000,
+                                                        num_top=5)
+
+                        # json serializer is very picky, so all these seemingly pointless
+                        # casts are required...
+                        # audioset_classes.append(list(classes.astype(np.int16)))
+                        audioset_classes.append(classes.tolist())
+                        # because we're making a prediction based on a DOWNSAMPLED version of the 
+                        # track, we need to convert our sample indicies back up to 44.1kHz
+                        # for an accurate location
+                        sf_interval = (np.array(sf_interval) / 16000) * 44100
+                        corrected_intervals.append([int(sf_interval[0]), int(sf_interval[1])])
+                        corrected_num_samps += int(sf_interval[1]) - int(sf_interval[0])
                 
                 track = os.path.splitext(os.path.basename(full_path))[0] # remove full path and ext .wav
 

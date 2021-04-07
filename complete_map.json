@@ -1,8 +1,10 @@
 {
   "Actions_DevilsWords": {
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\01_KickTrigger": {
+    "01_KickTrigger": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\01_KickTrigger.wav",
-      "keywords": [],
+      "keywords": [
+        "kick"
+      ],
       "numsamps": 2696192,
       "intervals": [
         [
@@ -361,9 +363,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\02_Snare": {
+    "02_Snare": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\02_Snare.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 2830336,
       "intervals": [
         [
@@ -425,9 +429,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\03_Overheads": {
+    "03_Overheads": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\03_Overheads.wav",
-      "keywords": [],
+      "keywords": [
+        "overhead"
+      ],
       "numsamps": 2979840,
       "intervals": [
         [
@@ -500,9 +506,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\04_Tom1": {
+    "04_Tom1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\04_Tom1.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 2954240,
       "intervals": [
         [
@@ -608,9 +616,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\05_Tom2": {
+    "05_Tom2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\05_Tom2.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 2938880,
       "intervals": [
         [
@@ -672,9 +682,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\06_Tambourine": {
+    "06_Tambourine": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\06_Tambourine.wav",
-      "keywords": [],
+      "keywords": [
+        "tamb",
+        "in"
+      ],
       "numsamps": 1058816,
       "intervals": [
         [
@@ -725,7 +738,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\07_Loop": {
+    "07_Loop": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\07_Loop.wav",
       "keywords": [],
       "numsamps": 125952,
@@ -745,7 +758,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\08_DrumsReverb": {
+    "08_DrumsReverb": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\08_DrumsReverb.wav",
       "keywords": [],
       "numsamps": 158720,
@@ -765,9 +778,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\09_ReverseCymbal": {
+    "09_ReverseCymbal": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\09_ReverseCymbal.wav",
-      "keywords": [],
+      "keywords": [
+        "cymbal"
+      ],
       "numsamps": 21504,
       "intervals": [
         [
@@ -796,9 +811,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\10_Bass": {
+    "10_Bass": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\10_Bass.wav",
-      "keywords": [],
+      "keywords": [
+        "bass"
+      ],
       "numsamps": 2877440,
       "intervals": [
         [
@@ -882,9 +899,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\11_ElecGtr1": {
+    "11_ElecGtr1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\11_ElecGtr1.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 795648,
       "intervals": [
         [
@@ -913,9 +934,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\12_ElecGtr2": {
+    "12_ElecGtr2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\12_ElecGtr2.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 936960,
       "intervals": [
         [
@@ -966,9 +991,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\13_ElecGtr3": {
+    "13_ElecGtr3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\13_ElecGtr3.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 2272256,
       "intervals": [
         [
@@ -1052,9 +1081,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\14_ElecGtr4": {
+    "14_ElecGtr4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\14_ElecGtr4.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 2104320,
       "intervals": [
         [
@@ -1138,9 +1171,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\15_ElecGtr5": {
+    "15_ElecGtr5": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\15_ElecGtr5.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 1540096,
       "intervals": [
         [
@@ -1191,9 +1228,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\16_ElecGtr6": {
+    "16_ElecGtr6": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\16_ElecGtr6.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 20480,
       "intervals": [
         [
@@ -1211,9 +1252,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\17_ElecGtr6": {
+    "17_ElecGtr6": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\17_ElecGtr6.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 323584,
       "intervals": [
         [
@@ -1231,9 +1276,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\18_LeadVox": {
+    "18_LeadVox": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\18_LeadVox.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 2612224,
       "intervals": [
         [
@@ -1438,9 +1486,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\19_LeadVoxDT": {
+    "19_LeadVoxDT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\19_LeadVoxDT.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 1054720,
       "intervals": [
         [
@@ -1612,9 +1663,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\20_BackingVox1": {
+    "20_BackingVox1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\20_BackingVox1.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 587776,
       "intervals": [
         [
@@ -1731,9 +1786,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\21_BackingVox2": {
+    "21_BackingVox2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\21_BackingVox2.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 573440,
       "intervals": [
         [
@@ -1850,9 +1909,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\22_BackingVox3": {
+    "22_BackingVox3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\22_BackingVox3.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 538624,
       "intervals": [
         [
@@ -1947,9 +2010,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\23_BackingVox4": {
+    "23_BackingVox4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\23_BackingVox4.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 540672,
       "intervals": [
         [
@@ -2044,9 +2111,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\24_BackingVox5": {
+    "24_BackingVox5": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\24_BackingVox5.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 584704,
       "intervals": [
         [
@@ -2141,9 +2212,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\25_BackingVox6": {
+    "25_BackingVox6": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\25_BackingVox6.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 544768,
       "intervals": [
         [
@@ -2238,9 +2313,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\26_BackingVox7": {
+    "26_BackingVox7": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\26_BackingVox7.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 108544,
       "intervals": [
         [
@@ -2269,9 +2348,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\27_BackingVox8": {
+    "27_BackingVox8": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_DevilsWords\\Actions_DevilsWords_Full\\27_BackingVox8.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 111616,
       "intervals": [
         [
@@ -2302,9 +2385,11 @@
     }
   },
   "Actions_OneMinuteSmile": {
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\01_KickTrigger": {
+    "01_KickTrigger": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\01_KickTrigger.wav",
-      "keywords": [],
+      "keywords": [
+        "kick"
+      ],
       "numsamps": 2417664,
       "intervals": [
         [
@@ -2652,9 +2737,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\02_Snare": {
+    "02_Snare": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\02_Snare.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 2488320,
       "intervals": [
         [
@@ -2694,9 +2781,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\03_Overheads": {
+    "03_Overheads": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\03_Overheads.wav",
-      "keywords": [],
+      "keywords": [
+        "overhead"
+      ],
       "numsamps": 2523136,
       "intervals": [
         [
@@ -2714,9 +2803,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\04_Tom1": {
+    "04_Tom1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\04_Tom1.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 2487296,
       "intervals": [
         [
@@ -2756,9 +2847,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\05_Tom2": {
+    "05_Tom2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\05_Tom2.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 2505728,
       "intervals": [
         [
@@ -2787,9 +2880,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\06_Tambourine": {
+    "06_Tambourine": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\06_Tambourine.wav",
-      "keywords": [],
+      "keywords": [
+        "tamb",
+        "in"
+      ],
       "numsamps": 1282048,
       "intervals": [
         [
@@ -2851,9 +2947,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\07_Bass": {
+    "07_Bass": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\07_Bass.wav",
-      "keywords": [],
+      "keywords": [
+        "bass"
+      ],
       "numsamps": 2433024,
       "intervals": [
         [
@@ -3014,9 +3112,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\08_ElecGtr1": {
+    "08_ElecGtr1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\08_ElecGtr1.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 2448384,
       "intervals": [
         [
@@ -3188,9 +3290,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\09_ElecGtr2": {
+    "09_ElecGtr2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\09_ElecGtr2.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 2444288,
       "intervals": [
         [
@@ -3384,9 +3490,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\10_ElecGtr3": {
+    "10_ElecGtr3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\10_ElecGtr3.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 955392,
       "intervals": [
         [
@@ -3492,9 +3602,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\11_ElecGtr4": {
+    "11_ElecGtr4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\11_ElecGtr4.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 951296,
       "intervals": [
         [
@@ -3600,9 +3714,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\12_ElecGtr5": {
+    "12_ElecGtr5": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\12_ElecGtr5.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 1466368,
       "intervals": [
         [
@@ -3642,9 +3760,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\13_ElecGtr6": {
+    "13_ElecGtr6": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\13_ElecGtr6.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 1465344,
       "intervals": [
         [
@@ -3684,9 +3806,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\14_LeadVox1": {
+    "14_LeadVox1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\14_LeadVox1.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 2450432,
       "intervals": [
         [
@@ -3737,9 +3862,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\15_LeadVox2": {
+    "15_LeadVox2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\15_LeadVox2.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 71680,
       "intervals": [
         [
@@ -3757,9 +3885,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\16_LeadVoxDT": {
+    "16_LeadVoxDT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\16_LeadVoxDT.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 1070080,
       "intervals": [
         [
@@ -3799,9 +3930,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\17_BackingVox1": {
+    "17_BackingVox1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\17_BackingVox1.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 742400,
       "intervals": [
         [
@@ -3863,9 +3998,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\18_BackingVox2": {
+    "18_BackingVox2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\18_BackingVox2.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 748544,
       "intervals": [
         [
@@ -3927,9 +4066,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\19_BackingVox3": {
+    "19_BackingVox3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\19_BackingVox3.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 824320,
       "intervals": [
         [
@@ -3991,9 +4134,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\20_BackingVox4": {
+    "20_BackingVox4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\20_BackingVox4.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 839680,
       "intervals": [
         [
@@ -4055,9 +4202,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\21_BackingVox5": {
+    "21_BackingVox5": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\21_BackingVox5.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 155648,
       "intervals": [
         [
@@ -4086,9 +4237,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\22_BackingVox6": {
+    "22_BackingVox6": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\22_BackingVox6.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 155648,
       "intervals": [
         [
@@ -4106,9 +4261,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\23_BackingVox7": {
+    "23_BackingVox7": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Actions_OneMinuteSmile\\Actions_OneMinuteSmile_Full\\23_BackingVox7.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 155648,
       "intervals": [
         [
@@ -4128,9 +4287,11 @@
     }
   },
   "AdamBuckley_DragMeDown": {
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\01_Kick1": {
+    "01_Kick1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\01_Kick1.wav",
-      "keywords": [],
+      "keywords": [
+        "kick"
+      ],
       "numsamps": 2231296,
       "intervals": [
         [
@@ -4621,9 +4782,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\02_Kick2": {
+    "02_Kick2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\02_Kick2.wav",
-      "keywords": [],
+      "keywords": [
+        "kick"
+      ],
       "numsamps": 1812480,
       "intervals": [
         [
@@ -6049,9 +6212,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\03_KickSample": {
+    "03_KickSample": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\03_KickSample.wav",
-      "keywords": [],
+      "keywords": [
+        "kick",
+        "amp",
+        "sample"
+      ],
       "numsamps": 88064,
       "intervals": [
         [
@@ -6124,9 +6291,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\04_SnareUp": {
+    "04_SnareUp": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\04_SnareUp.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 1162240,
       "intervals": [
         [
@@ -6991,9 +7160,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\05_SnareDown": {
+    "05_SnareDown": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\05_SnareDown.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 1126400,
       "intervals": [
         [
@@ -7847,9 +8018,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\06_SnareSample1": {
+    "06_SnareSample1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\06_SnareSample1.wav",
-      "keywords": [],
+      "keywords": [
+        "snare",
+        "amp",
+        "sample"
+      ],
       "numsamps": 1449984,
       "intervals": [
         [
@@ -8692,9 +8867,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\07_SnareSample2": {
+    "07_SnareSample2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\07_SnareSample2.wav",
-      "keywords": [],
+      "keywords": [
+        "snare",
+        "amp",
+        "sample"
+      ],
       "numsamps": 23552,
       "intervals": [
         [
@@ -8745,9 +8924,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\08_HiHat": {
+    "08_HiHat": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\08_HiHat.wav",
-      "keywords": [],
+      "keywords": [
+        "hat"
+      ],
       "numsamps": 2073600,
       "intervals": [
         [
@@ -9370,9 +9551,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\09_HiHatSample": {
+    "09_HiHatSample": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\09_HiHatSample.wav",
-      "keywords": [],
+      "keywords": [
+        "hat",
+        "amp",
+        "sample"
+      ],
       "numsamps": 78848,
       "intervals": [
         [
@@ -9423,9 +9608,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\10_Tom1": {
+    "10_Tom1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\10_Tom1.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 305152,
       "intervals": [
         [
@@ -9487,9 +9674,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\11_Tom1Sample": {
+    "11_Tom1Sample": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\11_Tom1Sample.wav",
-      "keywords": [],
+      "keywords": [
+        "tom",
+        "amp",
+        "sample"
+      ],
       "numsamps": 81920,
       "intervals": [
         [
@@ -9551,9 +9742,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\12_Tom2": {
+    "12_Tom2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\12_Tom2.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 745472,
       "intervals": [
         [
@@ -9736,9 +9929,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\13_Tom2Sample": {
+    "13_Tom2Sample": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\13_Tom2Sample.wav",
-      "keywords": [],
+      "keywords": [
+        "tom",
+        "amp",
+        "sample"
+      ],
       "numsamps": 401408,
       "intervals": [
         [
@@ -9943,9 +10140,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\14_Tom3": {
+    "14_Tom3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\14_Tom3.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 698368,
       "intervals": [
         [
@@ -10084,9 +10283,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\15_Tom3Sample": {
+    "15_Tom3Sample": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\15_Tom3Sample.wav",
-      "keywords": [],
+      "keywords": [
+        "tom",
+        "amp",
+        "sample"
+      ],
       "numsamps": 338944,
       "intervals": [
         [
@@ -10247,9 +10450,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\16_Overheads": {
+    "16_Overheads": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\16_Overheads.wav",
-      "keywords": [],
+      "keywords": [
+        "overhead"
+      ],
       "numsamps": 2499584,
       "intervals": [
         [
@@ -10454,9 +10659,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\17_DrumsRoom": {
+    "17_DrumsRoom": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\17_DrumsRoom.wav",
-      "keywords": [],
+      "keywords": [
+        "room"
+      ],
       "numsamps": 2601984,
       "intervals": [
         [
@@ -10518,9 +10725,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\18_BassDI": {
+    "18_BassDI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\18_BassDI.wav",
-      "keywords": [],
+      "keywords": [
+        "bass",
+        "DI"
+      ],
       "numsamps": 2688000,
       "intervals": [
         [
@@ -10824,9 +11034,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\19_BassOverdrive": {
+    "19_BassOverdrive": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\19_BassOverdrive.wav",
-      "keywords": [],
+      "keywords": [
+        "bass"
+      ],
       "numsamps": 2691072,
       "intervals": [
         [
@@ -11141,9 +11353,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\20_BassFuzz": {
+    "20_BassFuzz": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\20_BassFuzz.wav",
-      "keywords": [],
+      "keywords": [
+        "bass"
+      ],
       "numsamps": 2704384,
       "intervals": [
         [
@@ -11392,9 +11606,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\21_BassSynth": {
+    "21_BassSynth": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\21_BassSynth.wav",
-      "keywords": [],
+      "keywords": [
+        "synth",
+        "bass"
+      ],
       "numsamps": 55296,
       "intervals": [
         [
@@ -11412,9 +11629,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\22_AcousticGtr1": {
+    "22_AcousticGtr1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\22_AcousticGtr1.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "acoustic"
+      ],
       "numsamps": 921600,
       "intervals": [
         [
@@ -11443,9 +11663,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\23_AcousticGtr2": {
+    "23_AcousticGtr2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\23_AcousticGtr2.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "acoustic"
+      ],
       "numsamps": 245760,
       "intervals": [
         [
@@ -11463,9 +11686,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\24_AcousticGtr3": {
+    "24_AcousticGtr3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\24_AcousticGtr3.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "acoustic"
+      ],
       "numsamps": 258048,
       "intervals": [
         [
@@ -11483,9 +11709,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\25_ElecGtr1": {
+    "25_ElecGtr1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\25_ElecGtr1.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 1905664,
       "intervals": [
         [
@@ -11536,9 +11766,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\26_ElecGtr2": {
+    "26_ElecGtr2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\26_ElecGtr2.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 1886208,
       "intervals": [
         [
@@ -12194,9 +12428,14 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\27_ElecGtr2DI": {
+    "27_ElecGtr2DI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\27_ElecGtr2DI.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "DI",
+        "elec"
+      ],
       "numsamps": 1805312,
       "intervals": [
         [
@@ -12918,9 +13157,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\28_ElecGtr2DT": {
+    "28_ElecGtr2DT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\28_ElecGtr2DT.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 1888256,
       "intervals": [
         [
@@ -13576,9 +13819,14 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\29_ElecGtr2DTDI": {
+    "29_ElecGtr2DTDI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\29_ElecGtr2DTDI.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "DI",
+        "elec"
+      ],
       "numsamps": 1815552,
       "intervals": [
         [
@@ -14300,9 +14548,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\30_ElecGtr3": {
+    "30_ElecGtr3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\30_ElecGtr3.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 1470464,
       "intervals": [
         [
@@ -14419,9 +14671,14 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\31_ElecGtr3DI": {
+    "31_ElecGtr3DI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\31_ElecGtr3DI.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "DI",
+        "elec"
+      ],
       "numsamps": 1477632,
       "intervals": [
         [
@@ -14560,9 +14817,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\32_ElecGtr4": {
+    "32_ElecGtr4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\32_ElecGtr4.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 1505280,
       "intervals": [
         [
@@ -14613,9 +14874,14 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\33_ElecGtr4DI": {
+    "33_ElecGtr4DI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\33_ElecGtr4DI.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "DI",
+        "elec"
+      ],
       "numsamps": 1531904,
       "intervals": [
         [
@@ -14666,9 +14932,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\34_ElecGtr5": {
+    "34_ElecGtr5": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\34_ElecGtr5.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 271360,
       "intervals": [
         [
@@ -14686,9 +14956,14 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\35_ElecGtr5DI": {
+    "35_ElecGtr5DI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\35_ElecGtr5DI.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "DI",
+        "elec"
+      ],
       "numsamps": 268288,
       "intervals": [
         [
@@ -14706,9 +14981,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\36_Synth1": {
+    "36_Synth1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\36_Synth1.wav",
-      "keywords": [],
+      "keywords": [
+        "synth"
+      ],
       "numsamps": 488448,
       "intervals": [
         [
@@ -14737,9 +15014,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\37_Synth2": {
+    "37_Synth2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\37_Synth2.wav",
-      "keywords": [],
+      "keywords": [
+        "synth"
+      ],
       "numsamps": 1095680,
       "intervals": [
         [
@@ -14779,9 +15058,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\38_Synth3": {
+    "38_Synth3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\38_Synth3.wav",
-      "keywords": [],
+      "keywords": [
+        "synth"
+      ],
       "numsamps": 185344,
       "intervals": [
         [
@@ -14799,9 +15080,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\39_Synth4": {
+    "39_Synth4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\39_Synth4.wav",
-      "keywords": [],
+      "keywords": [
+        "synth"
+      ],
       "numsamps": 139264,
       "intervals": [
         [
@@ -14819,9 +15102,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\40_Piano": {
+    "40_Piano": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\40_Piano.wav",
-      "keywords": [],
+      "keywords": [
+        "piano"
+      ],
       "numsamps": 1212416,
       "intervals": [
         [
@@ -14872,9 +15157,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\41_SFX1": {
+    "41_SFX1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\41_SFX1.wav",
-      "keywords": [],
+      "keywords": [
+        "FX"
+      ],
       "numsamps": 389120,
       "intervals": [
         [
@@ -14947,9 +15234,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\42_SFX2": {
+    "42_SFX2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\42_SFX2.wav",
-      "keywords": [],
+      "keywords": [
+        "FX"
+      ],
       "numsamps": 410624,
       "intervals": [
         [
@@ -15022,9 +15311,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\43_LeadVox1": {
+    "43_LeadVox1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\43_LeadVox1.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 834560,
       "intervals": [
         [
@@ -15174,9 +15466,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\44_LeadVox1Harm": {
+    "44_LeadVox1Harm": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\44_LeadVox1Harm.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 930816,
       "intervals": [
         [
@@ -15337,9 +15632,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\45_LeadVox2": {
+    "45_LeadVox2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\45_LeadVox2.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 1154048,
       "intervals": [
         [
@@ -15489,9 +15787,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\46_BackingVox1": {
+    "46_BackingVox1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\46_BackingVox1.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 1152000,
       "intervals": [
         [
@@ -15630,9 +15932,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\47_BackingVox1DT": {
+    "47_BackingVox1DT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\47_BackingVox1DT.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 1158144,
       "intervals": [
         [
@@ -15771,9 +16077,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\48_BackingVox2": {
+    "48_BackingVox2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\48_BackingVox2.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 662528,
       "intervals": [
         [
@@ -15868,9 +16178,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\49_BackingVox2DT": {
+    "49_BackingVox2DT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\49_BackingVox2DT.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 655360,
       "intervals": [
         [
@@ -15965,9 +16279,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\50_BackingVox3": {
+    "50_BackingVox3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AdamBuckley_DragMeDown\\AdamBuckley_DragMeDown_Full\\50_BackingVox3.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 272384,
       "intervals": [
         [
@@ -15998,9 +16316,11 @@
     }
   },
   "AjayNagarkotiAndVibhuDixit_AeMereHumsafar": {
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\01_Kick": {
+    "01_Kick": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\01_Kick.wav",
-      "keywords": [],
+      "keywords": [
+        "kick"
+      ],
       "numsamps": 965632,
       "intervals": [
         [
@@ -17679,9 +17999,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\02_Clap": {
+    "02_Clap": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\02_Clap.wav",
-      "keywords": [],
+      "keywords": [
+        "clap"
+      ],
       "numsamps": 632832,
       "intervals": [
         [
@@ -19206,9 +19528,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\03_Snare": {
+    "03_Snare": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\03_Snare.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 268288,
       "intervals": [
         [
@@ -19402,9 +19726,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\04_HiHat": {
+    "04_HiHat": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\04_HiHat.wav",
-      "keywords": [],
+      "keywords": [
+        "hat"
+      ],
       "numsamps": 2353152,
       "intervals": [
         [
@@ -19466,9 +19792,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\05_Shaker": {
+    "05_Shaker": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\05_Shaker.wav",
-      "keywords": [],
+      "keywords": [
+        "shaker"
+      ],
       "numsamps": 2868224,
       "intervals": [
         [
@@ -19552,9 +19880,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\06_RevCymbal": {
+    "06_RevCymbal": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\06_RevCymbal.wav",
-      "keywords": [],
+      "keywords": [
+        "cymbal"
+      ],
       "numsamps": 997376,
       "intervals": [
         [
@@ -19737,9 +20067,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\07_SFX": {
+    "07_SFX": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\07_SFX.wav",
-      "keywords": [],
+      "keywords": [
+        "FX"
+      ],
       "numsamps": 43008,
       "intervals": [
         [
@@ -19757,9 +20089,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\08_Bass": {
+    "08_Bass": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\08_Bass.wav",
-      "keywords": [],
+      "keywords": [
+        "bass"
+      ],
       "numsamps": 3717120,
       "intervals": [
         [
@@ -20338,9 +20672,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\09_AcousticGtr1": {
+    "09_AcousticGtr1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\09_AcousticGtr1.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "acoustic"
+      ],
       "numsamps": 3653632,
       "intervals": [
         [
@@ -20413,9 +20750,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\10_AcousticGtr2": {
+    "10_AcousticGtr2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\10_AcousticGtr2.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "acoustic"
+      ],
       "numsamps": 3483648,
       "intervals": [
         [
@@ -20466,9 +20806,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\11_AcousticGtr3": {
+    "11_AcousticGtr3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\11_AcousticGtr3.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "acoustic"
+      ],
       "numsamps": 643072,
       "intervals": [
         [
@@ -20497,9 +20840,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\12_Piano1": {
+    "12_Piano1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\12_Piano1.wav",
-      "keywords": [],
+      "keywords": [
+        "piano"
+      ],
       "numsamps": 3620864,
       "intervals": [
         [
@@ -20561,9 +20906,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\13_Piano2": {
+    "13_Piano2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\13_Piano2.wav",
-      "keywords": [],
+      "keywords": [
+        "piano"
+      ],
       "numsamps": 855040,
       "intervals": [
         [
@@ -20625,9 +20972,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\14_PianoAndStrings": {
+    "14_PianoAndStrings": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\14_PianoAndStrings.wav",
-      "keywords": [],
+      "keywords": [
+        "piano"
+      ],
       "numsamps": 1529856,
       "intervals": [
         [
@@ -20722,9 +21071,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\15_Strings1": {
+    "15_Strings1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\15_Strings1.wav",
-      "keywords": [],
+      "keywords": [
+        "in"
+      ],
       "numsamps": 1273856,
       "intervals": [
         [
@@ -20764,9 +21115,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\16_Strings2": {
+    "16_Strings2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\16_Strings2.wav",
-      "keywords": [],
+      "keywords": [
+        "in"
+      ],
       "numsamps": 549888,
       "intervals": [
         [
@@ -20784,9 +21137,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\17_Strings3": {
+    "17_Strings3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\17_Strings3.wav",
-      "keywords": [],
+      "keywords": [
+        "in"
+      ],
       "numsamps": 542720,
       "intervals": [
         [
@@ -20804,9 +21159,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\18_Viola": {
+    "18_Viola": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\18_Viola.wav",
-      "keywords": [],
+      "keywords": [
+        "viola"
+      ],
       "numsamps": 118784,
       "intervals": [
         [
@@ -20824,9 +21181,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\19_Synth": {
+    "19_Synth": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\19_Synth.wav",
-      "keywords": [],
+      "keywords": [
+        "synth"
+      ],
       "numsamps": 3884032,
       "intervals": [
         [
@@ -20855,9 +21214,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\20_LeadVox": {
+    "20_LeadVox": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\20_LeadVox.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 3119104,
       "intervals": [
         [
@@ -20985,9 +21347,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\21_BackingVox1": {
+    "21_BackingVox1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\21_BackingVox1.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 149504,
       "intervals": [
         [
@@ -21016,9 +21382,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\22_BackingVox2": {
+    "22_BackingVox2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar\\AjayNagarkotiAndVibhuDixit_AeMereHumsafar_Full\\22_BackingVox2.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 193536,
       "intervals": [
         [
@@ -21049,9 +21419,11 @@
     }
   },
   "MR0908_AlJames": {
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\01_Kick": {
+    "01_Kick": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\01_Kick.wav",
-      "keywords": [],
+      "keywords": [
+        "kick"
+      ],
       "numsamps": 2527232,
       "intervals": [
         [
@@ -22840,9 +23212,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\02_Snare1": {
+    "02_Snare1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\02_Snare1.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 1492992,
       "intervals": [
         [
@@ -24796,9 +25170,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\03_Snare2": {
+    "03_Snare2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\03_Snare2.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 2456576,
       "intervals": [
         [
@@ -25069,9 +25445,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\04_Snare3": {
+    "04_Snare3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\04_Snare3.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 65536,
       "intervals": [
         [
@@ -25111,7 +25489,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\05_Sidestick": {
+    "05_Sidestick": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\05_Sidestick.wav",
       "keywords": [],
       "numsamps": 75776,
@@ -25164,9 +25542,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\06_Claps": {
+    "06_Claps": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\06_Claps.wav",
-      "keywords": [],
+      "keywords": [
+        "clap"
+      ],
       "numsamps": 764928,
       "intervals": [
         [
@@ -25998,9 +26378,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\07_HiHat1": {
+    "07_HiHat1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\07_HiHat1.wav",
-      "keywords": [],
+      "keywords": [
+        "hat"
+      ],
       "numsamps": 2276352,
       "intervals": [
         [
@@ -26172,9 +26554,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\08_HiHat2": {
+    "08_HiHat2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\08_HiHat2.wav",
-      "keywords": [],
+      "keywords": [
+        "hat"
+      ],
       "numsamps": 228352,
       "intervals": [
         [
@@ -26280,9 +26664,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\09_HiHat3": {
+    "09_HiHat3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\09_HiHat3.wav",
-      "keywords": [],
+      "keywords": [
+        "hat"
+      ],
       "numsamps": 374784,
       "intervals": [
         [
@@ -26377,9 +26763,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\10_Ride1": {
+    "10_Ride1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\10_Ride1.wav",
-      "keywords": [],
+      "keywords": [
+        "ride"
+      ],
       "numsamps": 2221056,
       "intervals": [
         [
@@ -26408,9 +26796,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\11_Ride2": {
+    "11_Ride2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\11_Ride2.wav",
-      "keywords": [],
+      "keywords": [
+        "ride"
+      ],
       "numsamps": 2156544,
       "intervals": [
         [
@@ -26461,9 +26851,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\12_Tom1": {
+    "12_Tom1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\12_Tom1.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 274432,
       "intervals": [
         [
@@ -26657,9 +27049,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\13_Tom2": {
+    "13_Tom2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\13_Tom2.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 434176,
       "intervals": [
         [
@@ -26886,9 +27280,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\14_Tom3": {
+    "14_Tom3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\14_Tom3.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 713728,
       "intervals": [
         [
@@ -27148,9 +27544,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\15_Tom4": {
+    "15_Tom4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\15_Tom4.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 668672,
       "intervals": [
         [
@@ -27454,9 +27852,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\16_Tom5": {
+    "16_Tom5": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\16_Tom5.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 959488,
       "intervals": [
         [
@@ -27716,9 +28116,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\17_Cymbal1Reverse": {
+    "17_Cymbal1Reverse": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\17_Cymbal1Reverse.wav",
-      "keywords": [],
+      "keywords": [
+        "cymbal"
+      ],
       "numsamps": 124928,
       "intervals": [
         [
@@ -27758,9 +28160,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\18_Cymbal2": {
+    "18_Cymbal2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\18_Cymbal2.wav",
-      "keywords": [],
+      "keywords": [
+        "cymbal"
+      ],
       "numsamps": 1012736,
       "intervals": [
         [
@@ -27987,9 +28391,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\19_Cymbal3": {
+    "19_Cymbal3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\19_Cymbal3.wav",
-      "keywords": [],
+      "keywords": [
+        "cymbal"
+      ],
       "numsamps": 175104,
       "intervals": [
         [
@@ -28106,7 +28512,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\20_Loop": {
+    "20_Loop": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\20_Loop.wav",
       "keywords": [],
       "numsamps": 64512,
@@ -28126,9 +28532,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\21_Tambourine": {
+    "21_Tambourine": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\21_Tambourine.wav",
-      "keywords": [],
+      "keywords": [
+        "tamb",
+        "in"
+      ],
       "numsamps": 1498112,
       "intervals": [
         [
@@ -28190,9 +28599,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\22_Bass": {
+    "22_Bass": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\22_Bass.wav",
-      "keywords": [],
+      "keywords": [
+        "bass"
+      ],
       "numsamps": 2954240,
       "intervals": [
         [
@@ -28848,9 +29259,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\23_Piano1Reverse": {
+    "23_Piano1Reverse": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\23_Piano1Reverse.wav",
-      "keywords": [],
+      "keywords": [
+        "piano"
+      ],
       "numsamps": 101376,
       "intervals": [
         [
@@ -28879,9 +29292,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\24_Piano2": {
+    "24_Piano2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\24_Piano2.wav",
-      "keywords": [],
+      "keywords": [
+        "piano"
+      ],
       "numsamps": 2977792,
       "intervals": [
         [
@@ -28987,9 +29402,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\25_SchoolBell": {
+    "25_SchoolBell": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\25_SchoolBell.wav",
-      "keywords": [],
+      "keywords": [
+        "bell"
+      ],
       "numsamps": 27648,
       "intervals": [
         [
@@ -29007,9 +29424,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\26_ElecGtr1": {
+    "26_ElecGtr1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\26_ElecGtr1.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 2416640,
       "intervals": [
         [
@@ -29126,9 +29547,14 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\27_ElecGtr2MIDI": {
+    "27_ElecGtr2MIDI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\27_ElecGtr2MIDI.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "DI",
+        "elec"
+      ],
       "numsamps": 631808,
       "intervals": [
         [
@@ -30158,9 +30584,14 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\28_ElecGtr3MIDI": {
+    "28_ElecGtr3MIDI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\28_ElecGtr3MIDI.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "DI",
+        "elec"
+      ],
       "numsamps": 925696,
       "intervals": [
         [
@@ -30431,9 +30862,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\29_ElecGtr4": {
+    "29_ElecGtr4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\29_ElecGtr4.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 2001920,
       "intervals": [
         [
@@ -30528,9 +30963,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\30_ElecGtr5": {
+    "30_ElecGtr5": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\30_ElecGtr5.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 1896448,
       "intervals": [
         [
@@ -30614,9 +31053,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\31_AcGtr1": {
+    "31_AcGtr1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\31_AcGtr1.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr"
+      ],
       "numsamps": 801792,
       "intervals": [
         [
@@ -30700,9 +31141,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\32_AcGtr2": {
+    "32_AcGtr2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\32_AcGtr2.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr"
+      ],
       "numsamps": 1542144,
       "intervals": [
         [
@@ -30808,9 +31251,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\33_Strings": {
+    "33_Strings": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\33_Strings.wav",
-      "keywords": [],
+      "keywords": [
+        "in"
+      ],
       "numsamps": 100352,
       "intervals": [
         [
@@ -30828,9 +31273,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\34_StringsPizz": {
+    "34_StringsPizz": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\34_StringsPizz.wav",
-      "keywords": [],
+      "keywords": [
+        "in",
+        "pizz"
+      ],
       "numsamps": 103424,
       "intervals": [
         [
@@ -30870,9 +31318,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\35_Synth1": {
+    "35_Synth1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\35_Synth1.wav",
-      "keywords": [],
+      "keywords": [
+        "synth"
+      ],
       "numsamps": 100352,
       "intervals": [
         [
@@ -30890,9 +31340,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\36_Synth2": {
+    "36_Synth2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\36_Synth2.wav",
-      "keywords": [],
+      "keywords": [
+        "synth"
+      ],
       "numsamps": 1272832,
       "intervals": [
         [
@@ -30943,9 +31395,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\37_Synth3": {
+    "37_Synth3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\37_Synth3.wav",
-      "keywords": [],
+      "keywords": [
+        "synth"
+      ],
       "numsamps": 332800,
       "intervals": [
         [
@@ -30985,9 +31439,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\38_Synth4": {
+    "38_Synth4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\38_Synth4.wav",
-      "keywords": [],
+      "keywords": [
+        "synth"
+      ],
       "numsamps": 782336,
       "intervals": [
         [
@@ -31071,9 +31527,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\39_LeadVox1": {
+    "39_LeadVox1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\39_LeadVox1.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 2699264,
       "intervals": [
         [
@@ -31355,9 +31814,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\40_LeadVox2": {
+    "40_LeadVox2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\40_LeadVox2.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 58368,
       "intervals": [
         [
@@ -31375,9 +31837,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\41_LeadVoxDT": {
+    "41_LeadVoxDT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\41_LeadVoxDT.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 2827264,
       "intervals": [
         [
@@ -31505,9 +31970,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\42_BackingVox01": {
+    "42_BackingVox01": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\42_BackingVox01.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 89088,
       "intervals": [
         [
@@ -31525,9 +31994,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\43_BackingVox02": {
+    "43_BackingVox02": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\43_BackingVox02.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 89088,
       "intervals": [
         [
@@ -31545,9 +32018,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\44_BackingVox03": {
+    "44_BackingVox03": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\44_BackingVox03.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 89088,
       "intervals": [
         [
@@ -31565,9 +32042,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\45_BackingVox04": {
+    "45_BackingVox04": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\45_BackingVox04.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 89088,
       "intervals": [
         [
@@ -31585,9 +32066,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\46_BackingVox05": {
+    "46_BackingVox05": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\46_BackingVox05.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 90112,
       "intervals": [
         [
@@ -31605,9 +32090,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\47_BackingVox06": {
+    "47_BackingVox06": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\47_BackingVox06.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 88064,
       "intervals": [
         [
@@ -31625,9 +32114,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\48_BackingVox07": {
+    "48_BackingVox07": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\48_BackingVox07.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 89088,
       "intervals": [
         [
@@ -31645,9 +32138,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\49_BackingVox08": {
+    "49_BackingVox08": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\49_BackingVox08.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 316416,
       "intervals": [
         [
@@ -31698,9 +32195,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\50_BackingVox09": {
+    "50_BackingVox09": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\50_BackingVox09.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 1385472,
       "intervals": [
         [
@@ -31828,9 +32329,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\51_BackingVox10": {
+    "51_BackingVox10": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\51_BackingVox10.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 1190912,
       "intervals": [
         [
@@ -31991,9 +32496,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\52_BackingVox11": {
+    "52_BackingVox11": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\52_BackingVox11.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 506880,
       "intervals": [
         [
@@ -32044,9 +32553,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\53_BackingVox12": {
+    "53_BackingVox12": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\53_BackingVox12.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 538624,
       "intervals": [
         [
@@ -32097,9 +32610,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\54_BackingVox13": {
+    "54_BackingVox13": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\54_BackingVox13.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 533504,
       "intervals": [
         [
@@ -32161,9 +32678,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\55_BackingVox14": {
+    "55_BackingVox14": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\55_BackingVox14.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 381952,
       "intervals": [
         [
@@ -32258,9 +32779,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\56_BackingVox15": {
+    "56_BackingVox15": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\56_BackingVox15.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 413696,
       "intervals": [
         [
@@ -32344,9 +32869,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\57_BackingVox16": {
+    "57_BackingVox16": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\57_BackingVox16.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 400384,
       "intervals": [
         [
@@ -32419,9 +32948,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\58_BackingVox17": {
+    "58_BackingVox17": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\58_BackingVox17.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 414720,
       "intervals": [
         [
@@ -32472,9 +33005,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\59_BackingVox18": {
+    "59_BackingVox18": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\59_BackingVox18.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 289792,
       "intervals": [
         [
@@ -32525,9 +33062,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\60_BackingVox19": {
+    "60_BackingVox19": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\60_BackingVox19.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 419840,
       "intervals": [
         [
@@ -32578,9 +33119,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\61_BackingVox20": {
+    "61_BackingVox20": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\61_BackingVox20.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 89318,
       "intervals": [
         [
@@ -32609,9 +33154,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\62_BackingVox21": {
+    "62_BackingVox21": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0908_AlJames\\MR0908_AlJames_Full\\62_BackingVox21.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 159744,
       "intervals": [
         [
@@ -32643,9 +33192,11 @@
   },
   "Rescue me - Amy Helm & The Handsome Strangers": {},
   "Spektakulatius_JedenWinter": {
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\01_Kick": {
+    "01_Kick": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\01_Kick.wav",
-      "keywords": [],
+      "keywords": [
+        "kick"
+      ],
       "numsamps": 1929216,
       "intervals": [
         [
@@ -33279,9 +33830,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\02_Snare": {
+    "02_Snare": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\02_Snare.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 3418112,
       "intervals": [
         [
@@ -33453,9 +34006,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\03_Overheads": {
+    "03_Overheads": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\03_Overheads.wav",
-      "keywords": [],
+      "keywords": [
+        "overhead"
+      ],
       "numsamps": 3514368,
       "intervals": [
         [
@@ -33539,9 +34094,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\04_Toms": {
+    "04_Toms": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\04_Toms.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 2955264,
       "intervals": [
         [
@@ -34043,9 +34600,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\05_BassMic": {
+    "05_BassMic": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\05_BassMic.wav",
-      "keywords": [],
+      "keywords": [
+        "bass",
+        "mic"
+      ],
       "numsamps": 2323456,
       "intervals": [
         [
@@ -34063,9 +34623,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\06_BassDI": {
+    "06_BassDI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\06_BassDI.wav",
-      "keywords": [],
+      "keywords": [
+        "bass",
+        "DI"
+      ],
       "numsamps": 2321408,
       "intervals": [
         [
@@ -34083,9 +34646,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\07_Sax": {
+    "07_Sax": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\07_Sax.wav",
-      "keywords": [],
+      "keywords": [
+        "sax"
+      ],
       "numsamps": 807936,
       "intervals": [
         [
@@ -34136,9 +34701,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\08_Piano": {
+    "08_Piano": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\08_Piano.wav",
-      "keywords": [],
+      "keywords": [
+        "piano"
+      ],
       "numsamps": 3630080,
       "intervals": [
         [
@@ -34156,9 +34723,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\09_LeadVox": {
+    "09_LeadVox": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_JedenWinter\\Spektakulatius_JedenWinter_Full\\09_LeadVox.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 2398752,
       "intervals": [
         [
@@ -34266,9 +34836,11 @@
     }
   },
   "SimonLyn_Copper": {
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\01_Pizz1": {
+    "01_Pizz1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\01_Pizz1.wav",
-      "keywords": [],
+      "keywords": [
+        "pizz"
+      ],
       "numsamps": 1699840,
       "intervals": [
         [
@@ -34286,9 +34858,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\02_Pizz2": {
+    "02_Pizz2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\02_Pizz2.wav",
-      "keywords": [],
+      "keywords": [
+        "pizz"
+      ],
       "numsamps": 3078144,
       "intervals": [
         [
@@ -34328,9 +34902,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\03_Pizz3": {
+    "03_Pizz3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\03_Pizz3.wav",
-      "keywords": [],
+      "keywords": [
+        "pizz"
+      ],
       "numsamps": 1748992,
       "intervals": [
         [
@@ -34370,9 +34946,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\04_Pizz4": {
+    "04_Pizz4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\04_Pizz4.wav",
-      "keywords": [],
+      "keywords": [
+        "pizz"
+      ],
       "numsamps": 2251776,
       "intervals": [
         [
@@ -34401,9 +34979,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\05_Pizz5": {
+    "05_Pizz5": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\05_Pizz5.wav",
-      "keywords": [],
+      "keywords": [
+        "pizz"
+      ],
       "numsamps": 1375232,
       "intervals": [
         [
@@ -34432,9 +35012,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\06_ArcoRhythm1": {
+    "06_ArcoRhythm1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\06_ArcoRhythm1.wav",
-      "keywords": [],
+      "keywords": [
+        "rhythm"
+      ],
       "numsamps": 3274752,
       "intervals": [
         [
@@ -34485,9 +35067,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\07_ArcoRhythm2": {
+    "07_ArcoRhythm2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\07_ArcoRhythm2.wav",
-      "keywords": [],
+      "keywords": [
+        "rhythm"
+      ],
       "numsamps": 3887104,
       "intervals": [
         [
@@ -34560,9 +35144,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\08_ArcoRhythm3": {
+    "08_ArcoRhythm3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\08_ArcoRhythm3.wav",
-      "keywords": [],
+      "keywords": [
+        "rhythm"
+      ],
       "numsamps": 3585024,
       "intervals": [
         [
@@ -34778,9 +35364,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\09_ArcoRhythm4": {
+    "09_ArcoRhythm4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\09_ArcoRhythm4.wav",
-      "keywords": [],
+      "keywords": [
+        "rhythm"
+      ],
       "numsamps": 1917952,
       "intervals": [
         [
@@ -34886,9 +35474,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\10_ArcoRhythm5": {
+    "10_ArcoRhythm5": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\10_ArcoRhythm5.wav",
-      "keywords": [],
+      "keywords": [
+        "rhythm"
+      ],
       "numsamps": 2806784,
       "intervals": [
         [
@@ -34939,9 +35529,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\11_ArcoRhythm6": {
+    "11_ArcoRhythm6": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\11_ArcoRhythm6.wav",
-      "keywords": [],
+      "keywords": [
+        "rhythm"
+      ],
       "numsamps": 1988608,
       "intervals": [
         [
@@ -35058,9 +35650,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\12_SFX1": {
+    "12_SFX1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\12_SFX1.wav",
-      "keywords": [],
+      "keywords": [
+        "FX"
+      ],
       "numsamps": 915456,
       "intervals": [
         [
@@ -35122,9 +35716,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\13_SFX2": {
+    "13_SFX2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\13_SFX2.wav",
-      "keywords": [],
+      "keywords": [
+        "FX"
+      ],
       "numsamps": 896000,
       "intervals": [
         [
@@ -35142,7 +35738,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\14_Theme": {
+    "14_Theme": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\14_Theme.wav",
       "keywords": [],
       "numsamps": 1370112,
@@ -35173,7 +35769,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\15_ThemeDT": {
+    "15_ThemeDT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\15_ThemeDT.wav",
       "keywords": [],
       "numsamps": 1378304,
@@ -35204,7 +35800,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\16_ThemeCounter": {
+    "16_ThemeCounter": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\16_ThemeCounter.wav",
       "keywords": [],
       "numsamps": 1207296,
@@ -35235,9 +35831,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\17_Lyrical1": {
+    "17_Lyrical1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\17_Lyrical1.wav",
-      "keywords": [],
+      "keywords": [
+        "lyrical"
+      ],
       "numsamps": 1180672,
       "intervals": [
         [
@@ -35299,9 +35897,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\18_Lyrical2": {
+    "18_Lyrical2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\18_Lyrical2.wav",
-      "keywords": [],
+      "keywords": [
+        "lyrical"
+      ],
       "numsamps": 702464,
       "intervals": [
         [
@@ -35341,9 +35941,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\19_Lyrical3": {
+    "19_Lyrical3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\19_Lyrical3.wav",
-      "keywords": [],
+      "keywords": [
+        "lyrical"
+      ],
       "numsamps": 1255424,
       "intervals": [
         [
@@ -35383,9 +35985,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\20_Lyrical3DT": {
+    "20_Lyrical3DT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\20_Lyrical3DT.wav",
-      "keywords": [],
+      "keywords": [
+        "lyrical"
+      ],
       "numsamps": 1256448,
       "intervals": [
         [
@@ -35425,9 +36029,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\21_Lyrical4": {
+    "21_Lyrical4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\21_Lyrical4.wav",
-      "keywords": [],
+      "keywords": [
+        "lyrical"
+      ],
       "numsamps": 1369365,
       "intervals": [
         [
@@ -35467,9 +36073,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\22_Lyrical4Octave": {
+    "22_Lyrical4Octave": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\22_Lyrical4Octave.wav",
-      "keywords": [],
+      "keywords": [
+        "lyrical",
+        "octave"
+      ],
       "numsamps": 1371413,
       "intervals": [
         [
@@ -35509,9 +36118,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\23_Lyrical5": {
+    "23_Lyrical5": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\23_Lyrical5.wav",
-      "keywords": [],
+      "keywords": [
+        "lyrical"
+      ],
       "numsamps": 708885,
       "intervals": [
         [
@@ -35529,9 +36140,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\24_Lyrical5Octave": {
+    "24_Lyrical5Octave": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\24_Lyrical5Octave.wav",
-      "keywords": [],
+      "keywords": [
+        "lyrical",
+        "octave"
+      ],
       "numsamps": 708608,
       "intervals": [
         [
@@ -35549,9 +36163,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\25_Lyrical6": {
+    "25_Lyrical6": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\25_Lyrical6.wav",
-      "keywords": [],
+      "keywords": [
+        "lyrical"
+      ],
       "numsamps": 708608,
       "intervals": [
         [
@@ -35569,9 +36185,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\26_Lyrical6Octave": {
+    "26_Lyrical6Octave": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\SimonLyn_Copper\\SimonLyn_Copper_Full\\26_Lyrical6Octave.wav",
-      "keywords": [],
+      "keywords": [
+        "lyrical",
+        "octave"
+      ],
       "numsamps": 703488,
       "intervals": [
         [
@@ -35592,9 +36211,11 @@
   },
   "Pretty Saro_Carolina in the Pines": {},
   "AsWeAre_Loser": {
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\01_Kick": {
+    "01_Kick": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\01_Kick.wav",
-      "keywords": [],
+      "keywords": [
+        "kick"
+      ],
       "numsamps": 2853888,
       "intervals": [
         [
@@ -35766,9 +36387,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\02_SnareUp": {
+    "02_SnareUp": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\02_SnareUp.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 2809856,
       "intervals": [
         [
@@ -35929,9 +36552,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\03_SnareDown": {
+    "03_SnareDown": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\03_SnareDown.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 2827264,
       "intervals": [
         [
@@ -36092,9 +36717,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\04_Tom1": {
+    "04_Tom1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\04_Tom1.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 2832384,
       "intervals": [
         [
@@ -36244,9 +36871,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\05_Tom2": {
+    "05_Tom2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\05_Tom2.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 2923520,
       "intervals": [
         [
@@ -36275,9 +36904,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\06_HiHat": {
+    "06_HiHat": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\06_HiHat.wav",
-      "keywords": [],
+      "keywords": [
+        "hat"
+      ],
       "numsamps": 2882560,
       "intervals": [
         [
@@ -36361,9 +36992,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\07_Cymbal": {
+    "07_Cymbal": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\07_Cymbal.wav",
-      "keywords": [],
+      "keywords": [
+        "cymbal"
+      ],
       "numsamps": 2937856,
       "intervals": [
         [
@@ -36403,9 +37036,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\08_Overheads": {
+    "08_Overheads": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\08_Overheads.wav",
-      "keywords": [],
+      "keywords": [
+        "overhead"
+      ],
       "numsamps": 2882560,
       "intervals": [
         [
@@ -36500,9 +37135,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\09_DrumsRoom": {
+    "09_DrumsRoom": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\09_DrumsRoom.wav",
-      "keywords": [],
+      "keywords": [
+        "room"
+      ],
       "numsamps": 2900992,
       "intervals": [
         [
@@ -36564,9 +37201,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\10_DrumMachine": {
+    "10_DrumMachine": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\10_DrumMachine.wav",
-      "keywords": [],
+      "keywords": [
+        "in"
+      ],
       "numsamps": 38912,
       "intervals": [
         [
@@ -36584,9 +37223,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\11_SFX": {
+    "11_SFX": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\11_SFX.wav",
-      "keywords": [],
+      "keywords": [
+        "FX"
+      ],
       "numsamps": 345088,
       "intervals": [
         [
@@ -36637,9 +37278,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\12_Bass": {
+    "12_Bass": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\12_Bass.wav",
-      "keywords": [],
+      "keywords": [
+        "bass"
+      ],
       "numsamps": 2575360,
       "intervals": [
         [
@@ -37031,9 +37674,14 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\13_ElecGtr1DI": {
+    "13_ElecGtr1DI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\13_ElecGtr1DI.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "DI",
+        "elec"
+      ],
       "numsamps": 34816,
       "intervals": [
         [
@@ -37051,9 +37699,14 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\14_ElecGtr2DI": {
+    "14_ElecGtr2DI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\14_ElecGtr2DI.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "DI",
+        "elec"
+      ],
       "numsamps": 2720768,
       "intervals": [
         [
@@ -37423,9 +38076,14 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\15_ElecGtr2DTDI": {
+    "15_ElecGtr2DTDI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\15_ElecGtr2DTDI.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "DI",
+        "elec"
+      ],
       "numsamps": 2614272,
       "intervals": [
         [
@@ -37751,9 +38409,14 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\16_ElecGtr3DI": {
+    "16_ElecGtr3DI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\16_ElecGtr3DI.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "DI",
+        "elec"
+      ],
       "numsamps": 2265088,
       "intervals": [
         [
@@ -38002,9 +38665,14 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\17_ElecGtr3DTDI": {
+    "17_ElecGtr3DTDI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\17_ElecGtr3DTDI.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "DI",
+        "elec"
+      ],
       "numsamps": 2150558,
       "intervals": [
         [
@@ -38253,9 +38921,14 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\18_ElecGtrSFX1": {
+    "18_ElecGtrSFX1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\18_ElecGtrSFX1.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec",
+        "FX"
+      ],
       "numsamps": 72704,
       "intervals": [
         [
@@ -38328,9 +39001,14 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\19_ElecGtrSFX2": {
+    "19_ElecGtrSFX2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\19_ElecGtrSFX2.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec",
+        "FX"
+      ],
       "numsamps": 64512,
       "intervals": [
         [
@@ -38359,9 +39037,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\20_LeadVox1": {
+    "20_LeadVox1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\20_LeadVox1.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 1532928,
       "intervals": [
         [
@@ -38610,9 +39291,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\21_LeadVox1DT": {
+    "21_LeadVox1DT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\21_LeadVox1DT.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 1192960,
       "intervals": [
         [
@@ -38817,9 +39501,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\22_LeadVox2": {
+    "22_LeadVox2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\22_LeadVox2.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 260879,
       "intervals": [
         [
@@ -38870,9 +39557,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\23_BackingVox1": {
+    "23_BackingVox1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\23_BackingVox1.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 625664,
       "intervals": [
         [
@@ -39022,9 +39713,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\24_BackingVox1DT": {
+    "24_BackingVox1DT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\24_BackingVox1DT.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 822272,
       "intervals": [
         [
@@ -39218,9 +39913,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\25_BackingVox2": {
+    "25_BackingVox2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\25_BackingVox2.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 668672,
       "intervals": [
         [
@@ -39381,9 +40080,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\26_BackingVox2DT": {
+    "26_BackingVox2DT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\26_BackingVox2DT.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 510976,
       "intervals": [
         [
@@ -39511,9 +40214,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\27_BackingVox3": {
+    "27_BackingVox3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\27_BackingVox3.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 368640,
       "intervals": [
         [
@@ -39575,9 +40282,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\28_BackingVox3DT": {
+    "28_BackingVox3DT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\28_BackingVox3DT.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 362496,
       "intervals": [
         [
@@ -39639,9 +40350,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\29_BackingVox4": {
+    "29_BackingVox4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\29_BackingVox4.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 365568,
       "intervals": [
         [
@@ -39703,9 +40418,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\30_BackingVox4DT": {
+    "30_BackingVox4DT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\30_BackingVox4DT.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 362496,
       "intervals": [
         [
@@ -39767,9 +40486,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\31_BackingVox5": {
+    "31_BackingVox5": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\31_BackingVox5.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 177152,
       "intervals": [
         [
@@ -39820,9 +40543,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\32_BackingVox5DT": {
+    "32_BackingVox5DT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\32_BackingVox5DT.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 138240,
       "intervals": [
         [
@@ -39862,9 +40589,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\33_BackingVox6": {
+    "33_BackingVox6": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\33_BackingVox6.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 253952,
       "intervals": [
         [
@@ -39915,9 +40646,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\34_BackingVox6DT": {
+    "34_BackingVox6DT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\34_BackingVox6DT.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 254976,
       "intervals": [
         [
@@ -39979,9 +40714,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\35_MobVox": {
+    "35_MobVox": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\AsWeAre_Loser\\AsWeAre_Loser_Full\\35_MobVox.wav",
-      "keywords": [],
+      "keywords": [
+        "vox"
+      ],
       "numsamps": 153600,
       "intervals": [
         [
@@ -40111,9 +40848,11 @@
     }
   },
   "Spektakulatius_IsYouIsOrIsYouAint": {
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\01_Kick": {
+    "01_Kick": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\01_Kick.wav",
-      "keywords": [],
+      "keywords": [
+        "kick"
+      ],
       "numsamps": 3125248,
       "intervals": [
         [
@@ -40208,9 +40947,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\02_Snare": {
+    "02_Snare": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\02_Snare.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 3210240,
       "intervals": [
         [
@@ -40261,9 +41002,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\03_Overheads": {
+    "03_Overheads": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\03_Overheads.wav",
-      "keywords": [],
+      "keywords": [
+        "overhead"
+      ],
       "numsamps": 3175424,
       "intervals": [
         [
@@ -40325,9 +41068,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\04_Toms": {
+    "04_Toms": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\04_Toms.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 3211264,
       "intervals": [
         [
@@ -40378,9 +41123,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\05_BassMic": {
+    "05_BassMic": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\05_BassMic.wav",
-      "keywords": [],
+      "keywords": [
+        "bass",
+        "mic"
+      ],
       "numsamps": 3176448,
       "intervals": [
         [
@@ -40442,9 +41190,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\06_BassDI": {
+    "06_BassDI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\06_BassDI.wav",
-      "keywords": [],
+      "keywords": [
+        "bass",
+        "DI"
+      ],
       "numsamps": 3171328,
       "intervals": [
         [
@@ -40517,9 +41268,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\07_Piano": {
+    "07_Piano": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\07_Piano.wav",
-      "keywords": [],
+      "keywords": [
+        "piano"
+      ],
       "numsamps": 3189760,
       "intervals": [
         [
@@ -40559,9 +41312,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\08_Sax1": {
+    "08_Sax1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\08_Sax1.wav",
-      "keywords": [],
+      "keywords": [
+        "sax"
+      ],
       "numsamps": 3135488,
       "intervals": [
         [
@@ -40667,9 +41422,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\09_Sax2_OD": {
+    "09_Sax2_OD": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\09_Sax2_OD.wav",
-      "keywords": [],
+      "keywords": [
+        "sax"
+      ],
       "numsamps": 1357824,
       "intervals": [
         [
@@ -41270,9 +42027,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\10_LeadVox": {
+    "10_LeadVox": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Spektakulatius_IsYouIsOrIsYouAint\\Spektakulatius_IsYouIsOrIsYouAint_Full\\10_LeadVox.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 1959936,
       "intervals": [
         [
@@ -41314,9 +42074,11 @@
     }
   },
   "JamesMay_ElizaJane": {
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\01_Kick": {
+    "01_Kick": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\01_Kick.wav",
-      "keywords": [],
+      "keywords": [
+        "kick"
+      ],
       "numsamps": 4209664,
       "intervals": [
         [
@@ -41774,9 +42536,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\02_Snare": {
+    "02_Snare": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\02_Snare.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 3405824,
       "intervals": [
         [
@@ -44467,9 +45231,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\03_HiHat": {
+    "03_HiHat": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\03_HiHat.wav",
-      "keywords": [],
+      "keywords": [
+        "hat"
+      ],
       "numsamps": 4450304,
       "intervals": [
         [
@@ -44828,9 +45594,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\04_Tom1": {
+    "04_Tom1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\04_Tom1.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 3486720,
       "intervals": [
         [
@@ -46872,9 +47640,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\05_Tom2": {
+    "05_Tom2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\05_Tom2.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 3553280,
       "intervals": [
         [
@@ -48674,9 +49444,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\06_Overheads": {
+    "06_Overheads": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\06_Overheads.wav",
-      "keywords": [],
+      "keywords": [
+        "overhead"
+      ],
       "numsamps": 4229120,
       "intervals": [
         [
@@ -49266,9 +50038,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\07_Bass": {
+    "07_Bass": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\07_Bass.wav",
-      "keywords": [],
+      "keywords": [
+        "bass"
+      ],
       "numsamps": 4861565,
       "intervals": [
         [
@@ -49297,9 +50071,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\08_AcousticGtr1": {
+    "08_AcousticGtr1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\08_AcousticGtr1.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "acoustic"
+      ],
       "numsamps": 4875264,
       "intervals": [
         [
@@ -49350,9 +50127,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\09_AcousticGtr2": {
+    "09_AcousticGtr2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\09_AcousticGtr2.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "acoustic"
+      ],
       "numsamps": 4876288,
       "intervals": [
         [
@@ -49414,9 +50194,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\10_Mandolin1": {
+    "10_Mandolin1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\10_Mandolin1.wav",
-      "keywords": [],
+      "keywords": [
+        "in",
+        "mandolin"
+      ],
       "numsamps": 4748288,
       "intervals": [
         [
@@ -49489,9 +50272,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\11_Mandolin2": {
+    "11_Mandolin2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\11_Mandolin2.wav",
-      "keywords": [],
+      "keywords": [
+        "in",
+        "mandolin"
+      ],
       "numsamps": 4829184,
       "intervals": [
         [
@@ -49542,9 +50328,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\12_HammondMic1Hi": {
+    "12_HammondMic1Hi": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\12_HammondMic1Hi.wav",
-      "keywords": [],
+      "keywords": [
+        "mic"
+      ],
       "numsamps": 4955136,
       "intervals": [
         [
@@ -49573,9 +50361,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\13_HammondMic2Lo": {
+    "13_HammondMic2Lo": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\13_HammondMic2Lo.wav",
-      "keywords": [],
+      "keywords": [
+        "mic"
+      ],
       "numsamps": 4841472,
       "intervals": [
         [
@@ -49637,7 +50427,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\14_PedalSteel": {
+    "14_PedalSteel": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\14_PedalSteel.wav",
       "keywords": [],
       "numsamps": 4485120,
@@ -49866,9 +50656,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\15_LeadVox": {
+    "15_LeadVox": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\15_LeadVox.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 3129344,
       "intervals": [
         [
@@ -50205,9 +50998,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\16_BackingVox": {
+    "16_BackingVox": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\JamesMay_ElizaJane\\JamesMay_ElizaJane_Full\\16_BackingVox.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 2072576,
       "intervals": [
         [
@@ -50568,9 +51365,11 @@
     }
   },
   "DonCamilloChoir_MarshMarigoldsSong": {
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\01_MainPair1": {
+    "01_MainPair1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\01_MainPair1.wav",
-      "keywords": [],
+      "keywords": [
+        "in"
+      ],
       "numsamps": 1122304,
       "intervals": [
         [
@@ -50588,9 +51387,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\02_MainPair2": {
+    "02_MainPair2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\02_MainPair2.wav",
-      "keywords": [],
+      "keywords": [
+        "in"
+      ],
       "numsamps": 1139712,
       "intervals": [
         [
@@ -50608,9 +51409,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\03_SpotMic1_Tenors": {
+    "03_SpotMic1_Tenors": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\03_SpotMic1_Tenors.wav",
-      "keywords": [],
+      "keywords": [
+        "mic"
+      ],
       "numsamps": 1144832,
       "intervals": [
         [
@@ -50639,9 +51442,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\04_SpotMic2_Basses": {
+    "04_SpotMic2_Basses": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\04_SpotMic2_Basses.wav",
-      "keywords": [],
+      "keywords": [
+        "bass",
+        "mic"
+      ],
       "numsamps": 1136640,
       "intervals": [
         [
@@ -50659,9 +51465,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\05_SpotMic3_Sopranos": {
+    "05_SpotMic3_Sopranos": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\05_SpotMic3_Sopranos.wav",
-      "keywords": [],
+      "keywords": [
+        "mic"
+      ],
       "numsamps": 1155072,
       "intervals": [
         [
@@ -50679,9 +51487,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\06_SpotMic4_Altos": {
+    "06_SpotMic4_Altos": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\06_SpotMic4_Altos.wav",
-      "keywords": [],
+      "keywords": [
+        "mic"
+      ],
       "numsamps": 1155072,
       "intervals": [
         [
@@ -50699,9 +51509,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\07_BassCloseMic1": {
+    "07_BassCloseMic1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\07_BassCloseMic1.wav",
-      "keywords": [],
+      "keywords": [
+        "bass",
+        "close",
+        "mic"
+      ],
       "numsamps": 1121280,
       "intervals": [
         [
@@ -50719,9 +51533,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\08_BassCloseMic2": {
+    "08_BassCloseMic2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\08_BassCloseMic2.wav",
-      "keywords": [],
+      "keywords": [
+        "bass",
+        "close",
+        "mic"
+      ],
       "numsamps": 1141760,
       "intervals": [
         [
@@ -50750,9 +51568,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\09_BassCloseMic3": {
+    "09_BassCloseMic3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\09_BassCloseMic3.wav",
-      "keywords": [],
+      "keywords": [
+        "bass",
+        "close",
+        "mic"
+      ],
       "numsamps": 1135616,
       "intervals": [
         [
@@ -50770,9 +51592,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\10_BassCloseMic4": {
+    "10_BassCloseMic4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\10_BassCloseMic4.wav",
-      "keywords": [],
+      "keywords": [
+        "bass",
+        "close",
+        "mic"
+      ],
       "numsamps": 1122304,
       "intervals": [
         [
@@ -50790,9 +51616,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\11_BassCloseMic5": {
+    "11_BassCloseMic5": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\11_BassCloseMic5.wav",
-      "keywords": [],
+      "keywords": [
+        "bass",
+        "close",
+        "mic"
+      ],
       "numsamps": 1123328,
       "intervals": [
         [
@@ -50810,9 +51640,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\12_LeadVox": {
+    "12_LeadVox": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\DonCamilloChoir_MarshMarigoldsSong\\DonCamilloChoir_MarshMarigoldsSong_Full\\12_LeadVox.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 661504,
       "intervals": [
         [
@@ -50865,9 +51698,12 @@
     }
   },
   "Ojebokoren_ThatsEntertainment": {
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Ojebokoren_ThatsEntertainment\\Ojebokoren_ThatsEntertainment_Full\\01_PianoDI": {
+    "01_PianoDI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Ojebokoren_ThatsEntertainment\\Ojebokoren_ThatsEntertainment_Full\\01_PianoDI.wav",
-      "keywords": [],
+      "keywords": [
+        "piano",
+        "DI"
+      ],
       "numsamps": 2313216,
       "intervals": [
         [
@@ -50907,7 +51743,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Ojebokoren_ThatsEntertainment\\Ojebokoren_ThatsEntertainment_Full\\02_MainPair1_MSDecoded": {
+    "02_MainPair1_MSDecoded": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Ojebokoren_ThatsEntertainment\\Ojebokoren_ThatsEntertainment_Full\\02_MainPair1_MSDecoded.wav",
       "keywords": [],
       "numsamps": 2338816,
@@ -50927,9 +51763,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Ojebokoren_ThatsEntertainment\\Ojebokoren_ThatsEntertainment_Full\\03_MainPair_AB": {
+    "03_MainPair_AB": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Ojebokoren_ThatsEntertainment\\Ojebokoren_ThatsEntertainment_Full\\03_MainPair_AB.wav",
-      "keywords": [],
+      "keywords": [
+        "in"
+      ],
       "numsamps": 2337792,
       "intervals": [
         [
@@ -50947,7 +51785,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Ojebokoren_ThatsEntertainment\\Ojebokoren_ThatsEntertainment_Full\\04_SopranoOD": {
+    "04_SopranoOD": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Ojebokoren_ThatsEntertainment\\Ojebokoren_ThatsEntertainment_Full\\04_SopranoOD.wav",
       "keywords": [],
       "numsamps": 1787904,
@@ -51066,7 +51904,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Ojebokoren_ThatsEntertainment\\Ojebokoren_ThatsEntertainment_Full\\05_AltoOD": {
+    "05_AltoOD": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Ojebokoren_ThatsEntertainment\\Ojebokoren_ThatsEntertainment_Full\\05_AltoOD.wav",
       "keywords": [],
       "numsamps": 1776640,
@@ -51196,7 +52034,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Ojebokoren_ThatsEntertainment\\Ojebokoren_ThatsEntertainment_Full\\06_TenorOD": {
+    "06_TenorOD": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Ojebokoren_ThatsEntertainment\\Ojebokoren_ThatsEntertainment_Full\\06_TenorOD.wav",
       "keywords": [],
       "numsamps": 1814528,
@@ -51293,9 +52131,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Ojebokoren_ThatsEntertainment\\Ojebokoren_ThatsEntertainment_Full\\07_BassOD": {
+    "07_BassOD": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\Ojebokoren_ThatsEntertainment\\Ojebokoren_ThatsEntertainment_Full\\07_BassOD.wav",
-      "keywords": [],
+      "keywords": [
+        "bass"
+      ],
       "numsamps": 1840128,
       "intervals": [
         [
@@ -51370,9 +52210,13 @@
     }
   },
   "MR0903_Moosmusic": {
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\01_KickSample": {
+    "01_KickSample": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\01_KickSample.wav",
-      "keywords": [],
+      "keywords": [
+        "kick",
+        "amp",
+        "sample"
+      ],
       "numsamps": 1143808,
       "intervals": [
         [
@@ -52556,9 +53400,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\02_SnareSample": {
+    "02_SnareSample": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\02_SnareSample.wav",
-      "keywords": [],
+      "keywords": [
+        "snare",
+        "amp",
+        "sample"
+      ],
       "numsamps": 643072,
       "intervals": [
         [
@@ -53742,9 +54590,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\03_HiHatSample": {
+    "03_HiHatSample": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\03_HiHatSample.wav",
-      "keywords": [],
+      "keywords": [
+        "hat",
+        "amp",
+        "sample"
+      ],
       "numsamps": 1381376,
       "intervals": [
         [
@@ -54818,9 +55670,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\04_KickIn": {
+    "04_KickIn": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\04_KickIn.wav",
-      "keywords": [],
+      "keywords": [
+        "kick",
+        "in"
+      ],
       "numsamps": 1235968,
       "intervals": [
         [
@@ -55498,9 +56353,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\05_KickOut": {
+    "05_KickOut": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\05_KickOut.wav",
-      "keywords": [],
+      "keywords": [
+        "kick",
+        "out"
+      ],
       "numsamps": 1320960,
       "intervals": [
         [
@@ -55628,9 +56486,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\06_SnareDown": {
+    "06_SnareDown": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\06_SnareDown.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 1126400,
       "intervals": [
         [
@@ -56946,9 +57806,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\07_SnareUp": {
+    "07_SnareUp": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\07_SnareUp.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 1301504,
       "intervals": [
         [
@@ -57296,9 +58158,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\08_HiHat": {
+    "08_HiHat": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\08_HiHat.wav",
-      "keywords": [],
+      "keywords": [
+        "hat"
+      ],
       "numsamps": 675840,
       "intervals": [
         [
@@ -57371,9 +58235,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\09_Overheads": {
+    "09_Overheads": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\09_Overheads.wav",
-      "keywords": [],
+      "keywords": [
+        "overhead"
+      ],
       "numsamps": 1334272,
       "intervals": [
         [
@@ -57413,9 +58279,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\10_DrumsRoom1": {
+    "10_DrumsRoom1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\10_DrumsRoom1.wav",
-      "keywords": [],
+      "keywords": [
+        "room"
+      ],
       "numsamps": 1332224,
       "intervals": [
         [
@@ -57455,9 +58323,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\11_DrumsRoom2": {
+    "11_DrumsRoom2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\11_DrumsRoom2.wav",
-      "keywords": [],
+      "keywords": [
+        "room"
+      ],
       "numsamps": 1334272,
       "intervals": [
         [
@@ -57497,9 +58367,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\12_Tom": {
+    "12_Tom": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\12_Tom.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 22528,
       "intervals": [
         [
@@ -57517,9 +58389,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\13_Cymbal": {
+    "13_Cymbal": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\13_Cymbal.wav",
-      "keywords": [],
+      "keywords": [
+        "cymbal"
+      ],
       "numsamps": 183296,
       "intervals": [
         [
@@ -57559,7 +58433,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\14_Woodblock": {
+    "14_Woodblock": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\14_Woodblock.wav",
       "keywords": [],
       "numsamps": 410624,
@@ -57700,9 +58574,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\15_Cowbell": {
+    "15_Cowbell": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\15_Cowbell.wav",
-      "keywords": [],
+      "keywords": [
+        "bell"
+      ],
       "numsamps": 648192,
       "intervals": [
         [
@@ -57775,9 +58651,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\16_Shaker": {
+    "16_Shaker": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\16_Shaker.wav",
-      "keywords": [],
+      "keywords": [
+        "shaker"
+      ],
       "numsamps": 656384,
       "intervals": [
         [
@@ -57850,9 +58728,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\17_Tambourine": {
+    "17_Tambourine": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\17_Tambourine.wav",
-      "keywords": [],
+      "keywords": [
+        "tamb",
+        "in"
+      ],
       "numsamps": 394240,
       "intervals": [
         [
@@ -57881,9 +58762,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\18_Claps": {
+    "18_Claps": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\18_Claps.wav",
-      "keywords": [],
+      "keywords": [
+        "clap"
+      ],
       "numsamps": 192512,
       "intervals": [
         [
@@ -58407,9 +59290,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\19_RevCymbal": {
+    "19_RevCymbal": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\19_RevCymbal.wav",
-      "keywords": [],
+      "keywords": [
+        "cymbal"
+      ],
       "numsamps": 97280,
       "intervals": [
         [
@@ -58449,9 +59334,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\20_BassDI": {
+    "20_BassDI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\20_BassDI.wav",
-      "keywords": [],
+      "keywords": [
+        "bass",
+        "DI"
+      ],
       "numsamps": 2613248,
       "intervals": [
         [
@@ -58557,9 +59445,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\21_Rhodes": {
+    "21_Rhodes": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\21_Rhodes.wav",
-      "keywords": [],
+      "keywords": [
+        "rhodes"
+      ],
       "numsamps": 649216,
       "intervals": [
         [
@@ -58599,9 +59489,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\22_ElecGtr1": {
+    "22_ElecGtr1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\22_ElecGtr1.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 834560,
       "intervals": [
         [
@@ -58806,9 +59700,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\23_ElecGtr2": {
+    "23_ElecGtr2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\23_ElecGtr2.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 1333248,
       "intervals": [
         [
@@ -58848,9 +59746,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\24_ElecGtr3": {
+    "24_ElecGtr3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\24_ElecGtr3.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 693248,
       "intervals": [
         [
@@ -58923,9 +59825,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\25_ElecGtr4": {
+    "25_ElecGtr4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\25_ElecGtr4.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 794624,
       "intervals": [
         [
@@ -59152,9 +60058,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\26_ElecGtr5": {
+    "26_ElecGtr5": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\26_ElecGtr5.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 691200,
       "intervals": [
         [
@@ -59557,9 +60467,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\27_ElecGtr6": {
+    "27_ElecGtr6": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\27_ElecGtr6.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 844800,
       "intervals": [
         [
@@ -59599,9 +60513,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\28_ElecGtr7": {
+    "28_ElecGtr7": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\28_ElecGtr7.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 439296,
       "intervals": [
         [
@@ -59619,9 +60537,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\29_LeadVox": {
+    "29_LeadVox": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\29_LeadVox.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 2304000,
       "intervals": [
         [
@@ -59914,9 +60835,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\30_BackingVox1": {
+    "30_BackingVox1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\30_BackingVox1.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 204800,
       "intervals": [
         [
@@ -59978,9 +60903,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\31_BackingVox2": {
+    "31_BackingVox2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\31_BackingVox2.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 222208,
       "intervals": [
         [
@@ -60042,9 +60971,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\32_BackingVox3": {
+    "32_BackingVox3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\32_BackingVox3.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 200704,
       "intervals": [
         [
@@ -60117,9 +61050,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\33_BackingVox4": {
+    "33_BackingVox4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\33_BackingVox4.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 207872,
       "intervals": [
         [
@@ -60181,9 +61118,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\34_BackingVox5": {
+    "34_BackingVox5": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\MR0903_Moosmusic\\MR0903_Moosmusic_Full\\34_BackingVox5.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 200704,
       "intervals": [
         [
@@ -60247,9 +61188,11 @@
     }
   },
   "RicardoSantiago_LetTheMusicFadeAway": {
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\01_Kick": {
+    "01_Kick": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\01_Kick.wav",
-      "keywords": [],
+      "keywords": [
+        "kick"
+      ],
       "numsamps": 2523456,
       "intervals": [
         [
@@ -61356,9 +62299,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\02_Snare": {
+    "02_Snare": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\02_Snare.wav",
-      "keywords": [],
+      "keywords": [
+        "snare"
+      ],
       "numsamps": 1072128,
       "intervals": [
         [
@@ -62553,9 +63498,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\03_HiHat": {
+    "03_HiHat": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\03_HiHat.wav",
-      "keywords": [],
+      "keywords": [
+        "hat"
+      ],
       "numsamps": 1058816,
       "intervals": [
         [
@@ -63277,9 +64224,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\04_Toms": {
+    "04_Toms": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\04_Toms.wav",
-      "keywords": [],
+      "keywords": [
+        "tom"
+      ],
       "numsamps": 357376,
       "intervals": [
         [
@@ -63363,9 +64312,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\05_Cymbals": {
+    "05_Cymbals": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\05_Cymbals.wav",
-      "keywords": [],
+      "keywords": [
+        "cymbal"
+      ],
       "numsamps": 2786624,
       "intervals": [
         [
@@ -64516,9 +65467,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\06_DrumsRoomStereo": {
+    "06_DrumsRoomStereo": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\06_DrumsRoomStereo.wav",
-      "keywords": [],
+      "keywords": [
+        "room"
+      ],
       "numsamps": 2946368,
       "intervals": [
         [
@@ -65262,9 +66215,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\07_DrumsRoomMono": {
+    "07_DrumsRoomMono": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\07_DrumsRoomMono.wav",
-      "keywords": [],
+      "keywords": [
+        "room"
+      ],
       "numsamps": 1083392,
       "intervals": [
         [
@@ -66349,7 +67304,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\08_SubHit": {
+    "08_SubHit": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\08_SubHit.wav",
       "keywords": [],
       "numsamps": 71680,
@@ -66468,9 +67423,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\09_BassDI": {
+    "09_BassDI": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\09_BassDI.wav",
-      "keywords": [],
+      "keywords": [
+        "bass",
+        "DI"
+      ],
       "numsamps": 3005760,
       "intervals": [
         [
@@ -66851,9 +67809,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\10_BassAmp": {
+    "10_BassAmp": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\10_BassAmp.wav",
-      "keywords": [],
+      "keywords": [
+        "bass",
+        "amp"
+      ],
       "numsamps": 3105088,
       "intervals": [
         [
@@ -67102,9 +68063,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\11_ElecGtr1": {
+    "11_ElecGtr1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\11_ElecGtr1.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 3586368,
       "intervals": [
         [
@@ -67122,9 +68087,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\12_ElecGtr2": {
+    "12_ElecGtr2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\12_ElecGtr2.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 2533696,
       "intervals": [
         [
@@ -68330,9 +69299,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\13_ElecGtr3": {
+    "13_ElecGtr3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\13_ElecGtr3.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 3138880,
       "intervals": [
         [
@@ -68361,9 +69334,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\14_ElecGtr4": {
+    "14_ElecGtr4": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\14_ElecGtr4.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 2210112,
       "intervals": [
         [
@@ -68480,9 +69457,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\15_ElecGtr5": {
+    "15_ElecGtr5": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\15_ElecGtr5.wav",
-      "keywords": [],
+      "keywords": [
+        "gtr",
+        "elecgtr",
+        "elec"
+      ],
       "numsamps": 1968448,
       "intervals": [
         [
@@ -68522,9 +69503,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\16_OrganSFX": {
+    "16_OrganSFX": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\16_OrganSFX.wav",
-      "keywords": [],
+      "keywords": [
+        "FX"
+      ],
       "numsamps": 19456,
       "intervals": [
         [
@@ -68542,7 +69525,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\17_Organ1": {
+    "17_Organ1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\17_Organ1.wav",
       "keywords": [],
       "numsamps": 223232,
@@ -68562,7 +69545,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\18_Organ2": {
+    "18_Organ2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\18_Organ2.wav",
       "keywords": [],
       "numsamps": 2616640,
@@ -68725,7 +69708,7 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\19_Organ3": {
+    "19_Organ3": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\19_Organ3.wav",
       "keywords": [],
       "numsamps": 1973568,
@@ -68778,9 +69761,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\20_Synth1": {
+    "20_Synth1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\20_Synth1.wav",
-      "keywords": [],
+      "keywords": [
+        "synth"
+      ],
       "numsamps": 2073920,
       "intervals": [
         [
@@ -68930,9 +69915,11 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\21_Synth2": {
+    "21_Synth2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\21_Synth2.wav",
-      "keywords": [],
+      "keywords": [
+        "synth"
+      ],
       "numsamps": 1934336,
       "intervals": [
         [
@@ -69489,9 +70476,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\22_LeadVox1": {
+    "22_LeadVox1": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\22_LeadVox1.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 1118208,
       "intervals": [
         [
@@ -69806,9 +70796,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\23_LeadVox2": {
+    "23_LeadVox2": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\23_LeadVox2.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 1311744,
       "intervals": [
         [
@@ -69980,9 +70973,12 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\24_LeadVox2DT": {
+    "24_LeadVox2DT": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\24_LeadVox2DT.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "lead"
+      ],
       "numsamps": 1256448,
       "intervals": [
         [
@@ -70154,9 +71150,13 @@
         ]
       ]
     },
-    "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\25_BackingVox": {
+    "25_BackingVox": {
       "path": "D:\\Cambridge-Multitrack-Dataset\\multitracks\\RicardoSantiago_LetTheMusicFadeAway\\RicardoSantiago_LetTheMusicFadeAway_Full\\25_BackingVox.wav",
-      "keywords": [],
+      "keywords": [
+        "vox",
+        "backing",
+        "in"
+      ],
       "numsamps": 670720,
       "intervals": [
         [

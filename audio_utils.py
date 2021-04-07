@@ -23,6 +23,9 @@ def strip_silence(audio, thresh, frame_length=2048, hop_length=512, min_len=8192
 
     return clips, intervals, total_samps
 
+def get_frames(audio, frame_length, hop):
+    return librosa.util.frame(audio, frame_length, hop)
+
 # similar to strip_silence() but returns the indexes above threshdb with min and max length
 def samples_above_thresh(audio, thresh, frame_length=2048, hop_length=512, min_len=2048, max_len=16384):
     intervals = librosa.effects.split(audio, 
